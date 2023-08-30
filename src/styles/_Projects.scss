@@ -1,0 +1,36 @@
+.projects-container {
+  background-color: rgba(36, 37, 54, 0.871); 
+  // box-shadow: 0 0 10px 10px rgba(34, 35, 34, 0.3);
+  font-family: 'Questrial', sans-serif;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-container h1 {
+  text-align: center;
+  border-bottom: 1px solid white;
+  width: 20%;
+  padding: 10px;
+}
+
+.projects-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  text-align: center;
+  width: 50%;
+}
+.project h4 {
+  text-align:left;
+  width: 80%;
+  padding-left: 10%;
+}
+
+.project img {
+  width: 90%;
+  border-radius: 2%;
+}

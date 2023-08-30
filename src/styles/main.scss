@@ -1,7 +1,13 @@
 @import '_Navbar';
 @import '_MainPage';
+@import '_Projects';
 
 body {
   background-color: rgba(13, 33, 46, 0.905);
+  // background: linear-gradient(0deg, rgba(23, 38, 61, 0.998), rgb(34, 40, 65) 40%, rgb(33, 36, 50));
+  color: rgb(221, 203, 203);
+}
+
+a:visited {
   color: rgb(221, 203, 203);
 }

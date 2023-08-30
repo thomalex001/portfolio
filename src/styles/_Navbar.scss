@@ -2,6 +2,7 @@
   margin: 25px;
   padding-bottom: 25px;
   border-bottom: 1px solid white;
+  cursor: pointer;
 }
 
 .navbar div {
@@ -9,8 +10,8 @@
   align-items: center;
   justify-content: space-around;
   list-style-type: none;
-  font-family: 'Courgette', cursive;
-  font-family: 'Sanchez', serif;
+  font-family: 'Questrial', sans-serif;
+  // font-family: 'Sanchez', serif;
   font-size: 20px;
   
 
@@ -18,4 +19,10 @@
 
 .navItem:hover {
   transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+
+@media only screen and (max-width: 415px) {
+
 }
