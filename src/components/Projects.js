@@ -2,16 +2,17 @@ import Project4img from '../assets/project4.png'
 import Project3img from '../assets/project3.png'
 import Project2img from '../assets/project2.png'
 import Project1img from '../assets/project1.png'
-import { useNavigate } from 'react-router-dom';
+
 
 
 const Projects = () => {
-  const navigate = useNavigate();
+
 
   return (
     <>
-      <div className='projects-container'>
-        <h1>My Projects</h1>
+      <div
+        className='projects-container'>
+        <h1>Projects</h1>
         <div className='projects-box'>
           <div className='project'>
             <h2>Project 4</h2>
@@ -103,7 +104,7 @@ const Projects = () => {
             </h4>
           </div>
           <div className='project'>
-            <h2>Project 4</h2>
+            <h2>Project 1</h2>
             <a
               href='https://github.com/thomalex001/ga-project-1'
               target='_blank'

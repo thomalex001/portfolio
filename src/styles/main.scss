@@ -1,11 +1,13 @@
 @import '_Navbar';
 @import '_MainPage';
 @import '_Projects';
+@import '_Experience';
 
 body {
-  background-color: rgba(13, 33, 46, 0.905);
+  background-color: rgb(41, 61, 74);
   // background: linear-gradient(0deg, rgba(23, 38, 61, 0.998), rgb(34, 40, 65) 40%, rgb(33, 36, 50));
   color: rgb(221, 203, 203);
+  margin: 0
 }
 
 a:visited {
