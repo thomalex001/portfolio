@@ -1,0 +1,13 @@
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-me-container h1 {
+  text-align: center;
+  border-bottom: 1px solid white;
+  width: 22%;
+  padding-bottom: 2%;
+  // margin: 5%
+}

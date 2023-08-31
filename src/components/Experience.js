@@ -21,12 +21,19 @@ const Experience = () => {
       <h2>Oct 2022 - Jan 2023</h2>
       <h2> 9-5 Mon-Fri with 400+ hours of homework.</h2>
       <h3>
-        Over the course of 12 weeks, I had the opportunity to learn and work
-        with the most recent full stack technologies in the industry. I learned
-        TDD fundamentals and covered multiple modules each ending with a project
-        to reinforce my knowledge. Throughout the course, I worked
-        independently, as well as in pair and group projects which you will find
-        listed below:
+        General Assembly is a pioneer in education and career transformation,
+        specializing in today’s most in-demand skills. What began as a
+        co-working space in 2011 has since grown into a global learning
+        experience with campuses in 20 cities and over 35,000 graduates
+        worldwide. General Assembly provides award-winning, dynamic training to
+        close the global skills gap.
+        <br/>
+          During my 12 weeks at GA, I had the opportunity to learn and work
+          with the most recent full stack technologies in the industry. I
+          learned TDD fundamentals and covered multiple modules each ending with
+          a project to reinforce my knowledge. Throughout the course, I worked
+          independently, as well as in pair and group projects listed above. Overall this was a 
+          fantastic experience where I met students of all ages and background graduating with honors. 
       </h3>
       <a
         href='https://lafromagerie.co.uk/'

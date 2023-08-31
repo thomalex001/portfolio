@@ -126,8 +126,7 @@ const Projects = () => {
               had only two weeks of Javascript/CSS knowledge and I designed the
               entire game by myself. Creating a fully working game in such a
               short amount of time was very rewarding, adding designs and sounds
-              was really fun too. Mario World Invaders can be played on the link
-              above.
+              was really fun too. Mario World Invaders can be played if you click on the image above!
             </h4>
           </div>
         </div>
