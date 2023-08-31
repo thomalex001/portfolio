@@ -1,7 +1,11 @@
 .navbar {
-  margin: 25px;
-  padding-bottom: 25px;
+  padding: 25px 0 25px 0; 
+  margin: 0 1% 0 1%;
   border-bottom: 1px solid white;
+  cursor: pointer;
+  position: sticky;
+  top: 0;
+  background-color: rgb(41, 61, 74);
 }
 
 .navbar div {
@@ -9,13 +13,33 @@
   align-items: center;
   justify-content: space-around;
   list-style-type: none;
-  font-family: 'Courgette', cursive;
-  font-family: 'Sanchez', serif;
+  font-family: 'Questrial', sans-serif;
+  // font-family: 'Sanchez', serif;
   font-size: 20px;
   
 
 }
 
 .navItem:hover {
-  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.1);
+animation: bounce 1s infinite;
+transform: translateX(-50%);
+position: absolute
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  40% {
+  transform: translateX(-50%) translateY(10px);
+  }   60% {
+  transform: translateX(-50%) translateY(5px);
+ }
+ }
+
+ 
+
+@media only screen and (max-width: 415px) {
+
 }

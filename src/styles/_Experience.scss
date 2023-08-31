@@ -1,0 +1,29 @@
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid white;
+  margin: 1%
+}
+
+.experience-container h1 {
+  text-align: center;
+  border-bottom: 1px solid white;
+  width: 22%;
+  padding-bottom: 2%;
+  margin: 5%
+}
+#experience-bottom-text {
+  border-bottom: none;
+}
+.experience-container h3 {
+  width: 70%;
+  padding-bottom: 5%;
+  border-bottom: 1px solid white;
+}
+
+.experience-container img {
+  height: 150px;
+  border-radius: 10%;
+  box-shadow: 5px 5px 10px black;
+}
