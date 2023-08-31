@@ -74,7 +74,7 @@ const Experience = () => {
       </a>
       <h2>General Manager - Temper Restaurants - London Soho</h2>
       <h2>Feb 2019 - Dec 2021</h2>
-      <h3>
+      <h3 id='experience-bottom-text'>
         Temper Soho landed on the very competitive London food scene with a
         bang. The concept was simple: a unique 7 foot long fire pit with counter
         seats all around as well as comfy booths, set in a basement in the heart

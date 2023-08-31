@@ -1,0 +1,38 @@
+.contact-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10%;
+  padding-top: 5%;
+  background-color: rgb(48, 43, 43);
+}
+
+.contact-main-container h1 {
+  text-align: center;
+  border-bottom: 1px solid white;
+  width: 22%;
+  padding-bottom:  2%;
+  margin-bottom: 5% ;
+}
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+.about-me-container a {
+  text-decoration: underline;
+}
+.contact-container h2 {
+  margin: 0;
+  font-size: 20px;
+}
+.contact-box {
+  display: flex; 
+  cursor: pointer;
+}
+
+.contact-box:hover {
+transform: scale(1.1);
+
+}

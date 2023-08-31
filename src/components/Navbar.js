@@ -20,7 +20,7 @@ const Navbar = () => (
       <div className='navItem'>Skills</div>
       <div className='navItem'>Projects</div>
       <div className='navItem'>Experience</div>
-      <div className='navItem'>More About Me?</div>
+      <div className='navItem'>More About Me</div>
       <div className='navItem'>Contact</div>
     </div>
   </div>

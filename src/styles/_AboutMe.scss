@@ -1,13 +1,17 @@
 .about-me-container {
+  height: 750px;
+  margin-top: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
+    border-bottom: 1px solid white;
+
 }
 
 .about-me-container h1 {
+  width: 22%;
   text-align: center;
   border-bottom: 1px solid white;
-  width: 22%;
   padding-bottom: 2%;
   // margin: 5%
 }

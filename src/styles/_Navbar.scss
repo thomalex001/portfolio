@@ -21,25 +21,24 @@
 }
 
 .navItem:hover {
-  transform: scale(1.2);
-  // animation: bounce 1s infinite;
-  // transform: translateX(-50%);
-  // position: absolute /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.1);
+animation: bounce 1s infinite;
+transform: translateX(-50%);
+position: absolute
 }
 
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  40% {
+  transform: translateX(-50%) translateY(10px);
+  }   60% {
+  transform: translateX(-50%) translateY(5px);
+ }
+ }
 
-// @keyframes bounce {
-//   0%, 20%, 50%, 80%, 100% {
-//     transform: translateX(-50%) translateY(0);
-//   }
-//   40% {
-//     transform: translateX(-50%) translateY(10px);
-//   }
-//   60% {
-//     transform: translateX(-50%) translateY(5px);
-//   }
-// }
-
+ 
 
 @media only screen and (max-width: 415px) {
 
