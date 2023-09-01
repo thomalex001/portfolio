@@ -1,9 +1,14 @@
 import LogoGa from '../assets/logo-ga.png';
 import LogoLf from '../assets/logolf.jpg';
 import LogoTemper from '../assets/logotemper.png';
-const Experience = () => {
+import { forwardRef } from 'react';
+
+
+const Experience = forwardRef((props, ref) => {
   return (
-    <div className='experience-container'>
+    <div
+      className='experience-container'
+      ref={ref}>
       <h1>Experience</h1>
       <a
         href='https://generalassemb.ly/'
@@ -27,13 +32,14 @@ const Experience = () => {
         experience with campuses in 20 cities and over 35,000 graduates
         worldwide. General Assembly provides award-winning, dynamic training to
         close the global skills gap.
-        <br/>
-          During my 12 weeks at GA, I had the opportunity to learn and work
-          with the most recent full stack technologies in the industry. I
-          learned TDD fundamentals and covered multiple modules each ending with
-          a project to reinforce my knowledge. Throughout the course, I worked
-          independently, as well as in pair and group projects listed above. Overall this was a 
-          fantastic experience where I met students of all ages and background graduating with honors. 
+        <br />
+        During my 12 weeks at GA, I had the opportunity to learn and work with
+        the most recent full stack technologies in the industry. I learned TDD
+        fundamentals and covered multiple modules each ending with a project to
+        reinforce my knowledge. Throughout the course, I worked independently,
+        as well as in pair and group projects listed above. Overall this was a
+        fantastic experience where I met students of all ages and background
+        graduating with honors.
       </h3>
       <a
         href='https://lafromagerie.co.uk/'
@@ -86,6 +92,6 @@ const Experience = () => {
       </h3>
     </div>
   );
-};
+});
 
 export default Experience;
