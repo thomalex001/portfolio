@@ -21,7 +21,7 @@ const AboutMe = forwardRef((props, ref)  => {
           rel='noreferrer'>
           GQ Youtube Videos
         </a>{' '}
-        for this slide. <br></br>
+        for this slide of the <br></br>
         <span >
           TOP 5 things I cannot live without:
         </span>
@@ -30,8 +30,7 @@ const AboutMe = forwardRef((props, ref)  => {
         I started working in hospitality at a young age and my love for food and
         eating out has grown stronger ever since. The London food scene is
         undeniably one of the most diverse in the world and to me, this makes it
-        one of the most exciting too. Trying out new places to eat out is one of
-        my favorite thing to do.
+        one of the most exciting too. Trying out new places to eat out is right at the top of my list.
       </h3>
       <ImageSlider slides={SliderData} />
     </div>

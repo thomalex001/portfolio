@@ -44,7 +44,7 @@ const MainPage = () => {
             </a>
           </div>
         </div>
-        <div className='profile-text'>
+        <div className='profile-text-container'>
           <h3>A little bit about me...</h3>
           <h4>
             Hi there 👋 I'm Alex! I have been fascinated with the Tech industry
