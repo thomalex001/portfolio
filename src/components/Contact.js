@@ -1,16 +1,22 @@
 import { Icon } from 'semantic-ui-react';
+import ScrollToTop from './common/ScrollToTop';
+import CopyButton from './common/CopyButton';
+import { forwardRef } from 'react';
 
-const Contact = () => {
+const Contact = forwardRef((props, ref) => {
+  const linkToCopy = 'thomasalex06@gmail.com';
   return (
-    <div className='contact-main-container'>
+    <div className='contact-main-container' ref={ref}>
       <h1>Contact</h1>
       <div className='contact-container'>
-        <div className='contact-box'>
+        <div className='email-box'>
           <Icon
             name='mail'
             size='big'
           />
+
           <h2>thomasalex06@gmail</h2>
+          <CopyButton link={linkToCopy} />
         </div>
         <div className='contact-box'>
           <Icon
@@ -41,8 +47,9 @@ const Contact = () => {
           </a>
         </div>
       </div>
+      <ScrollToTop />
     </div>
   );
-};
+});
 
 export default Contact;

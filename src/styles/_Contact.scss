@@ -34,5 +34,23 @@
 
 .contact-box:hover {
 transform: scale(1.1);
+// transition: all 2s;
+}
 
+.email-box {
+  display: flex; 
+}
+
+.email-box:hover {
+  transform: scale(1.1);
+}
+
+#copy-button {
+  width: 10px;
+  padding-left: 5px;
+  filter: brightness(70%)
+}
+
+#copy-button:hover {
+ cursor:pointer
 }

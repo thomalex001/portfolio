@@ -1,10 +1,16 @@
 import ImageSlider from './common/ImageSlider';
 import { SliderData } from './common/SliderData';
+import React, { forwardRef } from 'react';
 
 
-const AboutMe = () => {
+
+const AboutMe = forwardRef((props, ref)  => {
+
+
   return (
-    <div className='about-me-container'>
+    <div
+      className='about-me-container'
+      ref={ref}>
       <h1>More About Me</h1>
       <h3>
         I have been inspired by{' '}
@@ -15,7 +21,10 @@ const AboutMe = () => {
           rel='noreferrer'>
           GQ Youtube Videos
         </a>{' '}
-        recently, so here is a slide of the 5 top things I cannot live without:
+        for this slide. <br></br>
+        <span >
+          TOP 5 things I cannot live without:
+        </span>
       </h3>
       <h3>
         I started working in hospitality at a young age and my love for food and
@@ -27,6 +36,6 @@ const AboutMe = () => {
       <ImageSlider slides={SliderData} />
     </div>
   );
-}
+});
 
 export default AboutMe;

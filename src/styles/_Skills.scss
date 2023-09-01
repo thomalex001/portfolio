@@ -3,15 +3,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-    border-bottom: 1px solid white;
-
+  margin: 0 1% 0 1%;
 }
 
 .skills-container h1 {
   width: 22%;
   text-align: center;
   border-bottom: 1px solid white;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
   margin: 5%;
   
 }
@@ -20,13 +19,15 @@
   color: black;
 }
 .icons-container img {
+  z-index: 0;
   width: 55px;
   filter:brightness(0%);
-  margin: 1%
+  margin: 1%;
 }
 
 .icons-container img:hover {
   transform: scale(1.1);
+  transition: all .2s;
   cursor: pointer;;
 }
 .icons-container {

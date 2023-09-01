@@ -6,6 +6,12 @@
 @import '_ImageSlider';
 @import '_Contact';
 @import '_Skills';
+@import '_ScrollToTop';
+
+html {
+  scroll-behavior: smooth;
+  
+}
 
 body {
   background-color: rgb(41, 61, 74);

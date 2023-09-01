@@ -6,6 +6,7 @@
   position: sticky;
   top: 0;
   background-color: rgb(41, 61, 74);
+  z-index: 1;
 }
 
 .navbar div {
@@ -13,33 +14,12 @@
   align-items: center;
   justify-content: space-around;
   list-style-type: none;
-  font-family: 'Questrial', sans-serif;
-  // font-family: 'Sanchez', serif;
+  font-family: 'Sanchez', serif;
   font-size: 20px;
-  
-
 }
 
-.navItem:hover {
-  transform: scale(1.1);
-animation: bounce 1s infinite;
-transform: translateX(-50%);
-position: absolute
+.navItem:hover
+{
+    animation: swing 1s ease;
 }
 
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateX(-50%) translateY(0);
-  }
-  40% {
-  transform: translateX(-50%) translateY(10px);
-  }   60% {
-  transform: translateX(-50%) translateY(5px);
- }
- }
-
- 
-
-@media only screen and (max-width: 415px) {
-
-}

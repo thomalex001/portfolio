@@ -3,15 +3,13 @@ import Project3img from '../assets/project3.png'
 import Project2img from '../assets/project2.png'
 import Project1img from '../assets/project1.png'
 
+import { forwardRef } from 'react';
 
 
-const Projects = () => {
-
-
+const Projects = forwardRef((props, ref) => {
   return (
-    <>
-      <div
-        className='projects-container'>
+    <div>
+      <div className='projects-container' ref={ref}>
         <h1>Projects</h1>
         <div className='projects-box'>
           <div className='project'>
@@ -126,13 +124,14 @@ const Projects = () => {
               had only two weeks of Javascript/CSS knowledge and I designed the
               entire game by myself. Creating a fully working game in such a
               short amount of time was very rewarding, adding designs and sounds
-              was really fun too. Mario World Invaders can be played if you click on the image above!
+              was really fun too. Mario World Invaders can be played if you
+              click on the image above!
             </h4>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
-}
+});
 
 export default Projects

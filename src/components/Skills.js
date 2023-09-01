@@ -20,9 +20,11 @@ import Icon19 from '../assets/icons/sass.png';
 import Icon20 from '../assets/icons/sql.png';
 import Icon21 from '../assets/icons/tp.png';
 
-const Skills = () => {
+import React, { forwardRef } from 'react';
+
+const Skills = forwardRef((props, ref)=> {
   return (
-    <div className='skills-container'>
+    <div className='skills-container' ref={ref}>
       <h1>Skills</h1>
       <div className='icons-container'>
           <h2>FrontEnd</h2>
@@ -33,7 +35,6 @@ const Skills = () => {
         <img src={Icon10} alt='icon'/>
         <img src={Icon18} alt='icon'/>
         <img src={Icon1} alt='icon' />
-        <img src={Icon14} alt='icon'/>
         <img src={Icon2} alt='icon' id='bulma'/>
         <img src={Icon12} alt='icon'/>
         </div>
@@ -44,6 +45,7 @@ const Skills = () => {
         <img src={Icon13} alt='icon'/>
         <img src={Icon6} alt='icon' />
         <img src={Icon16} alt='icon'/>
+        <img src={Icon14} alt='icon'/>
         </div>
         <h2>Storage/Database</h2>
         <div className='icon-section'>
@@ -58,6 +60,6 @@ const Skills = () => {
     </div>
     </div>
   );
-};
+});
 
 export default Skills;
