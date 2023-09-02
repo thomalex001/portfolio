@@ -12,23 +12,12 @@
   border-bottom: 1px solid white;
   padding-bottom: 2%;
   margin: 5%;
+
   
 }
 
 .skills-container h2 {
   color: black;
-}
-.icons-container img {
-  z-index: 0;
-  width: 55px;
-  filter:brightness(0%);
-  margin: 1%;
-}
-
-.icons-container img:hover {
-  transform: scale(1.1);
-  transition: all .2s;
-  cursor: pointer;;
 }
 .icons-container {
   display:flex;
@@ -36,16 +25,31 @@
   flex-direction: column;
   text-align: center;
 }
+.icons-container img {
+  z-index: 0;
+  width: 55px;
+  filter:brightness(0%);
+  margin: 1%;
+  margin: 0 5px;
+}
+
+.icons-container img:hover {
+  transform: scale(1.1);
+  transition: all .2s;
+  cursor: pointer;
+}
+
 .icon-section{
   padding-bottom: 2%;
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: center;
-  width: 600px
+  width: 600px;
+  
 }
 #cloudinary {
-  width: 70px
+  width: 65px
 }
 #mongodb {
   width: 30px
@@ -54,8 +58,17 @@
   width: 80px
 }
 
-#bulma {
-  width: 80px
+// #bulma {
+//   width: 80px
+// }
+
+.icon-text {
+  opacity: 0;
+  color: black;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
+.icon-section :hover .icon-text {
+  opacity: 1;
+}
