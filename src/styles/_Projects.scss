@@ -6,24 +6,33 @@
   flex-direction: column;
   align-items: center;
   padding-bottom: 5%;
-  margin: 1%
+  margin: 1%;
+  border-bottom: 1px solid white
 }
 
 .project-legend {
-  font-size: 20px;
-  padding: 0 10px
+  font-size:25px;
+  padding: 10px 10px
 }
 
 .project-box {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  grid-auto-rows: minmax(100px, auto);
+  justify-items: center;
 }
 
-
-
-.project-box h3 {
-  // padding: 15px 0
+.projects-container h1 {
+  width: 22%;
+  text-align: center;
+  border-bottom: 1px solid white;
+  padding-bottom: 2%;
+  margin: 5%;
 }
+
+.project-box a {
+text-decoration: underline;}
 
 .project {
   text-align: center;
@@ -33,15 +42,25 @@
   flex-direction: column;
   align-items: center;
 }
+
+#project4-box {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+
+#project3-box {
+  grid-column: 2 / 2;
+  grid-row: 1;
+}
+
 .project h4 {
   text-align:left;
-  width: 80%;
+  width: 100%;
   padding-left: 10%;
 }
 
 .project img {
-  width: 90%;
-  height: 400px;
+width: 500px;
   border-radius: 2%;
   background-size: cover;
   box-shadow: 2px 2px 5px black;

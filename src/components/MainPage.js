@@ -4,14 +4,18 @@ import linkedInIcon from '../assets/icons/linkedin-profile-icon.png';
 
 const MainPage = () => {
   return (
-    <div>
+    <div className='main-page-container'>
       <div className='firstAndLastName'>
         <div className='firstname'>
-          <h1>A L E X</h1>
-          <h2>Junior Software Engineer.</h2>
+          <h1 className='animate__animated animate__slideInLeft'>A L E X</h1>
+          <h2 className='animate__animated animate__bounceInDown animate__delay-1s	'>
+            Junior Software Engineer.
+          </h2>
         </div>
         <div>
-          <h1>T H O M A S</h1>
+          <h1 className='animate__animated animate__slideInRight	'>
+            T H O M A S
+          </h1>
         </div>
       </div>
       <div className='profile-container'>
