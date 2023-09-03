@@ -23,12 +23,14 @@ function App() {
         experienceSection={experienceSection}
         contactSection={contactSection}
       />
-      <MainPage />
-      <Skills ref={skillsSection} />
-      <Projects ref={projectsSection} />
-      <Experience ref={experienceSection} />
-      <AboutMe ref={aboutSection} />
-      <Contact ref={contactSection}  />
+      <div className='content'>
+        <MainPage />
+        <Skills ref={skillsSection} />
+        <Projects ref={projectsSection} />
+        <Experience ref={experienceSection} />
+        <AboutMe ref={aboutSection} />
+        <Contact ref={contactSection} />
+      </div>
     </>
   );
 }

@@ -1,8 +1,6 @@
-body{
-  font-family: 'Roboto', sans-serif;
-}
 
-@media only screen and (max-width: 2000px) {
+// @media only screen and (min-width: 481px) {
+
 .firstAndLastName h1 {
 font-size: 200px;
 margin: 10px;
@@ -41,9 +39,20 @@ transition: all 1s linear;
   border-radius: 80%;
   width: 600px;
   filter: brightness(80%);
-  box-shadow: 0 0 10px 10px rgba(26, 27, 26, 0.3);
   z-index: 0;
-  outline: 7px solid rgb(28, 42, 51);
+  outline: 3px solid rgb(28, 42, 51);
+
+  @media screen and (max-width: 480px) {
+    // .profileImage {
+      // border-radius: 80%;
+      width: 800px;
+      // filter: brightness(80%);
+      margin: 2%;
+      box-shadow: 0 0 10px 10px rgba(26, 27, 26, 0.3);
+      // z-index: 0;
+      outline: 7px solid rgb(28, 42, 51);
+      shape-outside: circle(50%);
+  }
 }
 
 .overlay-container {
@@ -103,7 +112,7 @@ padding-left: 40px;
     font-size: 20px;  
 }
 
-}
+// }
 
 @media screen and (max-width: 480px) {
 
@@ -147,17 +156,6 @@ transition: all 1s linear;
 .image-container {
   position: relative;
   display: inline-block;
-}
-
-.profileImage {
-  border-radius: 80%;
-  width: 800px;
-  filter: brightness(80%);
-  margin: 2%;
-  box-shadow: 0 0 10px 10px rgba(26, 27, 26, 0.3);
-  z-index: 0;
-  outline: 7px solid rgb(28, 42, 51);
-  shape-outside: circle(50%);
 }
 
 .overlay-container {
