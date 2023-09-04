@@ -2,17 +2,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 5%;
-  padding-top: 5%;
-  background-color: rgb(66, 76, 85);
+  padding-bottom: 3%;
+  padding-top: 1%;
+  background-color: rgb(53, 61, 69);
 }
 
 .contact-main-container h1 {
   text-align: center;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgb(221, 203, 203);
   width: 22%;
-  padding-bottom:  2%;
-  margin-bottom: 5% ;
+  padding-bottom:  1%;
+  margin-bottom: 2% ;
 }
 .contact-container {
   display: flex;
@@ -20,12 +20,10 @@
   width: 100vw;
 }
 
-.about-me-container a {
-  text-decoration: underline;
-}
 .contact-container h2 {
   margin: 0;
   font-size: 20px;
+  color: rgb(221, 203, 203);
 }
 .contact-box {
   display: flex; 
@@ -48,7 +46,8 @@ transform: scale(1.1);
 #copy-button {
   width: 10px;
   padding-left: 5px;
-  filter: brightness(70%)
+  filter: brightness(75%);
+  color: rgb(255, 255, 255);
 }
 
 #copy-button:hover {

@@ -6,7 +6,7 @@ import { forwardRef } from 'react';
 const Contact = forwardRef((props, ref) => {
   const linkToCopy = 'thomasalex06@gmail.com';
   return (
-    <div className='contact-main-container' ref={ref}>
+    <footer className='contact-main-container' ref={ref}>
       <h1>Contact</h1>
       <div className='contact-container'>
         <div className='email-box'>
@@ -48,7 +48,7 @@ const Contact = forwardRef((props, ref) => {
         </div>
       </div>
       <ScrollToTop />
-    </div>
+    </footer>
   );
 });
 

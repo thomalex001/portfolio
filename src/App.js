@@ -1,5 +1,5 @@
 import Navbar from './components/Navbar';
-import MainPage from './components/MainPage';
+import Profile from './components/Profile';
 import Projects from './components/Projects'
 import Experience from './components/Experience';
 import AboutMe from './components/AboutMe';
@@ -23,14 +23,15 @@ function App() {
         experienceSection={experienceSection}
         contactSection={contactSection}
       />
-      <div className='content'>
-        <MainPage />
+      <main>
+
+        <Profile />
         <Skills ref={skillsSection} />
         <Projects ref={projectsSection} />
         <Experience ref={experienceSection} />
         <AboutMe ref={aboutSection} />
         <Contact ref={contactSection} />
-      </div>
+      </main>
     </>
   );
 }

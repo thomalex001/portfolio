@@ -1,13 +1,17 @@
-@media only screen and (max-width: 2000px) {
-  .navbar {
-    padding: 25px 0 25px 0; 
-    margin: 0 1% 0 1%;
-    border-bottom: 1px solid white;
-    cursor: pointer;
+  .header {
     position: sticky;
     top: 0;
+    z-index: 3
+}
+  .navbar {
+    padding: 25px 0; 
+    border-bottom: 1px solid rgb(221, 203, 203);
+    // position: sticky;
+    // top: 0;
     background-color: rgb(41, 61, 74);
     z-index: 3;
+    cursor: pointer;
+    height: 71px;
   }
 
   .navbar div {
@@ -23,7 +27,6 @@
     animation: swing 1s ease;
   }
 
-}
 
 @media screen and (max-width: 480px) {
 

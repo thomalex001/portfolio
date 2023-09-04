@@ -31,7 +31,7 @@ const Skills = forwardRef((props, ref) => {
       ref={ref}>
       <h1>Skills</h1>
       <div className='icons-container'>
-          <h2>FrontEnd</h2>
+          <h2>Frontend</h2>
           <div className='icon-section'>
             <div>
               <img
@@ -91,7 +91,7 @@ const Skills = forwardRef((props, ref) => {
               <p className='icon-text'>{hoveredText || 'Bootstrap'}</p>
             </div>
           </div>
-        <h2>Back End</h2>
+        <h2>Backend</h2>
         <div className='icon-section'>
           <div>
             <img
