@@ -1,12 +1,35 @@
-
-.firstAndLastName h1 {
-font-size: 200px;
-margin: 10px;
-transition: all 1s linear;
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px
 }
 
-.firstAndLastName h2 {
+.fullname-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fullname-container h1 {
+font-size: 200px;
+margin: 0;
+transition: all 1s linear;
+
+  @media screen and (max-width: 700px) {
+  font-size: 100px;
+  }
+}
+
+.fullname-container h2 {
   font-size: 40px;
+  padding-left: 20px;
+  
+  @media screen and (max-width: 700px) {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+
 }
 
 .firstname {
@@ -14,18 +37,40 @@ transition: all 1s linear;
   align-items: baseline;
 }
 
-.firstAndLastName {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
-}
-
-.profile-container {
+.image-and-text-container {
   display: flex;
   justify-content: center;
   padding-bottom: 10px;
+
+  @media screen and (max-width: 700px) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
+
+.profile-text-container {
+width: 500px;
+padding-left: 40px;
+}
+
+.profile-text-container h3 {
+  font-size: 30px;
+  padding-top: 5%;
+  text-align: center;
+
+ @media screen and (max-width: 700px) {
+    font-size: 35px;
+  }
+}
+
+.profile-text-container h4 {
+    font-size: 20px;  
+
+@media screen and (max-width: 700px) {
+    font-size: 25px;
+  }
+}
+
 
 .profileImage {
   border-radius: 80%;
@@ -34,8 +79,8 @@ transition: all 1s linear;
   z-index: 0;
   outline: 3px solid rgb(28, 42, 51);
 
-  @media screen and (max-width: 412px) {
-
+  @media screen and (max-width: 700px) {
+    
   }
 }
 
@@ -80,20 +125,6 @@ transition: all 1s linear;
 
 .overlay-container:hover .profileImage {
   filter: blur(5px) brightness(50%);
-}
-
-.profile-text-container {
-width: 500px;
-padding-left: 40px;
-}
-
-.profile-text-container h3 {
-  font-size: 30px;
-  padding-top: 5%;
-}
-
-.profile-text-container h4 {
-    font-size: 20px;  
 }
 
 // }

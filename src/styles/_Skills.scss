@@ -1,5 +1,4 @@
 .skills-container {
-  height: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,15 +10,14 @@
   width: 22%;
   text-align: center;
   border-bottom: 1px solid rgb(0, 0, 0);
-  padding-bottom: 2%;
-  margin: 5%;
-
-  
+  padding: 20px 0;
+  margin-bottom: 35px  
 }
 
 .skills-container h2 {
   color: black;
 }
+
 .icons-container {
   display:flex;
   align-items: center;
@@ -31,7 +29,6 @@
   width: 55px;
   filter:invert(1);
   filter:brightness(0);
-  margin: 1%;
   margin: 0 5px;
 }
 
@@ -42,7 +39,6 @@
 }
 
 .icon-section{
-  padding-bottom: 2%;
   display: flex;
   align-items: center;
   flex-direction: row;

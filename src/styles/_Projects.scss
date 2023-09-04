@@ -1,12 +1,9 @@
 .projects-container {
-  // background-color: rgba(36, 61, 79, 0.871); 
-  // box-shadow: 0 0 10px 10px rgba(34, 35, 34, 0.3);
   font-family: 'Questrial', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 5%;
-  // margin: 1%;
+  padding-bottom: 30px;
   border-bottom: 1px solid rgb(221, 203, 203)
 }
 
@@ -21,14 +18,21 @@
   gap: 30px;
   grid-auto-rows: minmax(100px, auto);
   justify-items: center;
+  @media screen and (max-width: 700px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    ;
+  }
 }
 
 .projects-container h1 {
   width: 22%;
   text-align: center;
   border-bottom: 1px solid white;
-  padding-bottom: 2%;
-  margin: 5%;
+  padding: 20px 0;
+  margin-bottom: 35px
 }
 
 .project-box a {

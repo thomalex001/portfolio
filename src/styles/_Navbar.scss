@@ -1,7 +1,7 @@
   .header {
     position: sticky;
     top: 0;
-    z-index: 3
+    z-index: 3;
 }
   .top-nav {
     display: flex;
@@ -13,8 +13,9 @@
     z-index: 3;
     cursor: pointer;
     height: 71px;
-    width: 100%
+    width: 100%;
   }
+
 
  .menu {
     width: 100%;
@@ -88,11 +89,16 @@
 
  @media screen and (max-width: 700px) {
 
+   .navbar.expanded {
+  height: 300px;
+   }
+
   .top-nav {
     display: flex;
     justify-content: flex-start;
     padding-left: 5%;
-    width: 100%
+    width: 100%;
+    border-bottom: none;
   }
 
   .menu-button-container {

@@ -1,10 +1,17 @@
-
-
 import React from 'react';
+import { useState } from 'react';
 
 const navbarHeight = 71;
 
 const Navbar = ({ aboutSection, skillsSection, experienceSection, projectsSection, contactSection }) => {
+  
+    const [isNavbarOpen, setIsNavbarOpen] = useState(false);
+
+    const toggleNavbar = () => {
+      setIsNavbarOpen(!isNavbarOpen);
+    };
+  
+  
   const scrollDownToAbout = () => {
     if (aboutSection && aboutSection.current) {
       window.scrollTo({
@@ -44,10 +51,11 @@ const Navbar = ({ aboutSection, skillsSection, experienceSection, projectsSectio
           top: contactSection.current.offsetTop - navbarHeight,
           behavior: 'smooth'
         });
-      }
+      };
+
     };
   return (
-    <header className='header'>
+    <header className={`navbar ${isNavbarOpen ? 'expanded' : ''}`}>
       <section className='top-nav'>
         <input
           id='menu-toggle'
@@ -56,7 +64,9 @@ const Navbar = ({ aboutSection, skillsSection, experienceSection, projectsSectio
         <label
           class='menu-button-container'
           for='menu-toggle'>
-          <div class='menu-button'></div>
+          <div
+            onClick={toggleNavbar}
+            class='menu-button'></div>
         </label>
         <ul className='menu'>
           <li

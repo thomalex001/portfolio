@@ -2,10 +2,10 @@ import ProfileImage from '../assets/profile.png'
 import gitIcon from '../assets/icons/github-profile-icon.png'
 import linkedInIcon from '../assets/icons/linkedin-profile-icon.png';
 
-const MainPage = () => {
+const Profile = () => {
   return (
-    <div className='main-page-container'>
-      <div className='firstAndLastName'>
+    <div className='profile-container'>
+      <div className='fullname-container'>
         <div className='firstname'>
           <h1 className='animate__animated animate__slideInLeft'>A L E X</h1>
           <h2 className='animate__animated animate__bounceInDown animate__delay-1s	'>
@@ -18,7 +18,7 @@ const MainPage = () => {
           </h1>
         </div>
       </div>
-      <div className='profile-container'>
+      <div className='image-and-text-container'>
         <div className='image-container'>
           <div className='overlay-container'>
             <img
@@ -71,4 +71,4 @@ const MainPage = () => {
   );
 }
 
-export default MainPage
+export default Profile

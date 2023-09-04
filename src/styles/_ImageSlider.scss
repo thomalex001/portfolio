@@ -1,15 +1,19 @@
 .slider {
   position: relative;
-  height: 400px;
-  display: flex;
   justify-content: center;
   align-items: center;
+    @media screen and (max-width: 700px) {
+    }
 }
 
 .image {
-  width: 800px;
-  height: 400px;
+  width: 600px;
+  height: 300px;
   border-radius: 10px;
+  
+  @media screen and (max-width: 700px) {
+    width: 490px
+  }
 }
 
 .right-arrow {
