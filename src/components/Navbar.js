@@ -48,35 +48,44 @@ const Navbar = ({ aboutSection, skillsSection, experienceSection, projectsSectio
     };
   return (
     <header className='header'>
-      <div className='navbar'>
-        <div>
-          <div
-            className='navItem'
+      <section className='top-nav'>
+        <input
+          id='menu-toggle'
+          type='checkbox'
+        />
+        <label
+          class='menu-button-container'
+          for='menu-toggle'>
+          <div class='menu-button'></div>
+        </label>
+        <ul className='menu'>
+          <li
+            // className='navItem'
             onClick={scrollDownToSkills}>
             Skills
-          </div>
-          <div
-            className='navItem'
+          </li>
+          <li
+            // className='navItem'
             onClick={scrollDownToProjects}>
             Projects
-          </div>
-          <div
-            className='navItem'
+          </li>
+          <li
+            // className='navItem'
             onClick={scrollDownToExperience}>
             Experience
-          </div>
-          <div
-            className='navItem'
+          </li>
+          <li
+            // className='navItem'
             onClick={scrollDownToAbout}>
             More About Me
-          </div>
-          <div
-            className='navItem'
+          </li>
+          <li
+            // className='navItem'
             onClick={scrollDownToContact}>
             Contact
-          </div>
-        </div>
-      </div>
+          </li>
+        </ul>
+      </section>
     </header>
   );
 };

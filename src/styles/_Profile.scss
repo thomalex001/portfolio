@@ -1,0 +1,100 @@
+
+.firstAndLastName h1 {
+font-size: 200px;
+margin: 10px;
+transition: all 1s linear;
+}
+
+.firstAndLastName h2 {
+  font-size: 40px;
+}
+
+.firstname {
+  display: flex;
+  align-items: baseline;
+}
+
+.firstAndLastName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.profileImage {
+  border-radius: 80%;
+  width: 600px;
+  filter: brightness(80%);
+  z-index: 0;
+  outline: 3px solid rgb(28, 42, 51);
+
+  @media screen and (max-width: 412px) {
+
+  }
+}
+
+.overlay-container {
+  position: relative;
+}
+
+.profileImage:hover{
+  filter: blur(5px) brightness(50%);
+}
+
+.overlay-git-icon {
+  position: absolute;
+  height: 70px;
+  top: 30%;
+  left: 20%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.overlay-linkedin-icon {
+  position: absolute;
+  height: 40px;
+  filter: brightness(0%);
+  top: 10%;
+  left: 37%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  cursor: pointer;
+  z-index: 1;
+}
+
+
+.overlay-container:hover .overlay-git-icon {
+  opacity: 1;
+}
+.overlay-container:hover .overlay-linkedin-icon {
+  opacity: 1;
+}
+
+.overlay-container:hover .profileImage {
+  filter: blur(5px) brightness(50%);
+}
+
+.profile-text-container {
+width: 500px;
+padding-left: 40px;
+}
+
+.profile-text-container h3 {
+  font-size: 30px;
+  padding-top: 5%;
+}
+
+.profile-text-container h4 {
+    font-size: 20px;  
+}
+
+// }
+
