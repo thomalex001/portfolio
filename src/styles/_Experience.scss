@@ -13,22 +13,38 @@
   border-bottom: 1px solid rgb(221, 203, 203);
   padding: 20px 0;
 
+  @media screen and (max-width: 700px) {
+  
+  }
+
 }
 .experience-container h1 {
   width: 30%;
   text-align: center;
   border-bottom: 1px solid rgb(221, 203, 203);
   padding: 20px 0;
-  margin-bottom: 35px
+  margin-bottom: 35px;
 }
-#experience-bottom-box {
-  border-bottom: none;
+
+.experience-container h2 {
+  @media screen and (max-width: 700px) {
+    text-align: center;
+  }
 }
+
 .experience-container h3 {
   width: 70%;
+
+  @media screen and (max-width: 700px) {
+    width: auto;
+    font-size: 21px
+  }
 }
 
 .experience-container img {
   height: 150px;
   border-radius: 25% 10%;
+}
+#experience-bottom-box {
+  border-bottom: none;
 }

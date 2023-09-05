@@ -23,6 +23,10 @@
   display: flex;
   justify-content: space-around;
   width: 100vw;
+    
+  @media screen and (max-width: 700px) {
+    width: auto
+  }
 
 @media screen and (max-width: 700px) {
   flex-direction: column;
@@ -46,7 +50,6 @@
 
 .contact-box:hover {
 transform: scale(1.1);
-// transition: all 2s;
 }
 
 .email-box {
@@ -55,6 +58,10 @@ transform: scale(1.1);
 
 .email-box:hover {
   transform: scale(1.1);
+
+  @media screen and (max-width: 700px) {
+    transform: none
+  }
 }
 
 #copy-button {

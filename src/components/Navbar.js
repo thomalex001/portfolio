@@ -69,31 +69,11 @@ const Navbar = ({ aboutSection, skillsSection, experienceSection, projectsSectio
             class='menu-button'></div>
         </label>
         <ul className='menu'>
-          <li
-            // className='navItem'
-            onClick={scrollDownToSkills}>
-            Skills
-          </li>
-          <li
-            // className='navItem'
-            onClick={scrollDownToProjects}>
-            Projects
-          </li>
-          <li
-            // className='navItem'
-            onClick={scrollDownToExperience}>
-            Experience
-          </li>
-          <li
-            // className='navItem'
-            onClick={scrollDownToAbout}>
-            More About Me
-          </li>
-          <li
-            // className='navItem'
-            onClick={scrollDownToContact}>
-            Contact
-          </li>
+          <li onClick={scrollDownToSkills}>Skills</li>
+          <li onClick={scrollDownToProjects}>Projects</li>
+          <li onClick={scrollDownToExperience}>Experience</li>
+          <li onClick={scrollDownToAbout}>More About Me</li>
+          <li onClick={scrollDownToContact}>Contact</li>
         </ul>
       </section>
     </header>
