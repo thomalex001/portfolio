@@ -13,7 +13,7 @@
 .project-box {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
+  gap: 20px;
   grid-auto-rows: minmax(100px, auto);
   justify-items: center;
   
@@ -55,6 +55,9 @@ text-decoration: underline;}
   
   @media screen and (max-width: 1099px) {
     padding: 5px;
+  }
+  @media screen and (max-width: 449px) {
+    font-size: 18px;
   }
 }
 

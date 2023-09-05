@@ -11,15 +11,24 @@
   align-items: center;
   justify-content: center;
   border-bottom: 1px solid rgb(221, 203, 203);
+    @media screen and (max-width: 449px) {
+      width: 100%;
+    }
 }
 
 .experience-container h2 {
   width: 50%;
   text-align: center;
+  
+  @media screen and (max-width: 449px) {
+    font-size: 16px
+  }
 }
 
 .experience-container p {
   text-align: justify;
+  width: 100%;
+  padding: 10px;
 
 @media screen and (min-width: 450px){
     width: auto;
@@ -28,7 +37,8 @@
   }
 
 @media screen and (max-width: 449px) {
-    text-align: center;
+  padding: 0;
+  font-size: 18px;
   }
 
 }
@@ -36,6 +46,10 @@
 .experience-container img {
   height: 150px;
   border-radius: 25% 10%;
+  
+  @media screen and (max-width: 449px) {
+    height: 100px
+  }
 }
 #experience-bottom-box {
   border-bottom: none;
