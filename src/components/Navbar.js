@@ -6,11 +6,9 @@ const navbarHeight = 71;
 const Navbar = ({ aboutSection, skillsSection, experienceSection, projectsSection, contactSection }) => {
   
     const [isNavbarOpen, setIsNavbarOpen] = useState(false);
-
     const toggleNavbar = () => {
       setIsNavbarOpen(!isNavbarOpen);
     };
-  
   
   const scrollDownToAbout = () => {
     if (aboutSection && aboutSection.current) {
@@ -62,14 +60,14 @@ const Navbar = ({ aboutSection, skillsSection, experienceSection, projectsSectio
           type='checkbox'
         />
         <label
-          class='menu-button-container'
-          for='menu-toggle'>
-          <div
-            onClick={toggleNavbar}
-            class='menu-button'></div>
+          className='menu-button-container'
+          htmlFor='menu-toggle'
+          onClick={toggleNavbar} 
+        >
+          <div className='menu-button'></div>
         </label>
         <ul className='menu'>
-          <li onClick={scrollDownToSkills}>Skills</li>
+          <li id='li-skills' onClick={scrollDownToSkills}>Skills</li>
           <li onClick={scrollDownToProjects}>Projects</li>
           <li onClick={scrollDownToExperience}>Experience</li>
           <li onClick={scrollDownToAbout}>More About Me</li>

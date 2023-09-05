@@ -24,14 +24,13 @@ function App() {
         contactSection={contactSection}
       />
       <main>
-
         <Profile />
         <Skills ref={skillsSection} />
         <Projects ref={projectsSection} />
         <Experience ref={experienceSection} />
         <AboutMe ref={aboutSection} />
-        <Contact ref={contactSection} />
       </main>
+      <Contact ref={contactSection} />
     </>
   );
 }

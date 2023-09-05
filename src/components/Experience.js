@@ -27,7 +27,7 @@ const Experience = forwardRef((props, ref) => {
         </h2>
         <h2>Oct 2022 - Jan 2023</h2>
         <h2> 9-5 Mon-Fri with 400+ hours of homework.</h2>
-        <h3>
+        <p>
           General Assembly is a pioneer in education and career transformation,
           specializing in today’s most in-demand skills. What began as a
           co-working space in 2011 has since grown into a global learning
@@ -42,7 +42,7 @@ const Experience = forwardRef((props, ref) => {
           independently, as well as in pair and group projects listed above.
           Overall this was a fantastic experience where I met students of all
           ages and background graduating with honors.
-        </h3>
+        </p>
       </div>
       <div className='experience-box'>
         <a
@@ -59,7 +59,7 @@ const Experience = forwardRef((props, ref) => {
           Duty Manager - La Fromagerie Retail & Wholesale - London Marylebone
         </h2>
         <h2>Dec 2021 - Current (Part-Time) </h2>
-        <h3>
+        <p>
           La Fromagerie has three locations: Highbury (first opened 1992), it's
           flagship Marylebone (opened 2002) and more recently Bloomsbury. Each
           shop has it's signature walk-in cheese room, a café serving hot food
@@ -72,7 +72,7 @@ const Experience = forwardRef((props, ref) => {
           to a wide range of delicious homemade foods, as well as French/Italian
           products sometimes difficult (or impossible?!) to get your hands on in
           the UK.
-        </h3>
+        </p>
       </div>
       <div
         id='experience-bottom-box'
@@ -89,7 +89,7 @@ const Experience = forwardRef((props, ref) => {
         </a>
         <h2>General Manager - Temper Restaurants - London Soho</h2>
         <h2>Feb 2019 - Dec 2021</h2>
-        <h3>
+        <p>
           Temper Soho landed on the very competitive London food scene with a
           bang. The concept was simple: a unique 7 foot long fire pit with
           counter seats all around as well as comfy booths, set in a basement in
@@ -98,7 +98,7 @@ const Experience = forwardRef((props, ref) => {
           complement the South American spicy and smoky bold flavors and chef
           Neil Rankin would be the star of the show. 6 years later and it keeps
           being talked about as one of the best restaurants London has to offer.
-        </h3>
+        </p>
       </div>
     </div>
   );

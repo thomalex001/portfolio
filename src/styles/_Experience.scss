@@ -19,26 +19,33 @@
 
 }
 .experience-container h1 {
-  width: 30%;
   text-align: center;
   border-bottom: 1px solid rgb(221, 203, 203);
-  padding: 20px 0;
+  padding: 20px;
   margin-bottom: 35px;
 }
 
 .experience-container h2 {
+  padding: 0 200px;
+  text-align: center;
   @media screen and (max-width: 700px) {
     text-align: center;
   }
 }
 
-.experience-container h3 {
-  width: 70%;
+.experience-container p {
+  text-align: justify;
 
-  @media screen and (max-width: 700px) {
+  @media screen and (min-width: 450px){
     width: auto;
-    font-size: 21px
+    font-size: 21px;
+    padding: 0 20%;
   }
+
+  @media screen and (max-width: 449px) {
+     text-align: center;
+  }
+
 }
 
 .experience-container img {
