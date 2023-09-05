@@ -29,8 +29,8 @@ function App() {
         <Projects ref={projectsSection} />
         <Experience ref={experienceSection} />
         <AboutMe ref={aboutSection} />
+        <Contact ref={contactSection} />
       </main>
-      <Contact ref={contactSection} />
     </>
   );
 }

@@ -11,7 +11,7 @@ const AboutMe = forwardRef((props, ref)  => {
     <div
       className='about-me-container'
       ref={ref}>
-      <h1>More About Me</h1>
+      <h1 className=''>More About Me</h1>
       <h2>
         Here are the TOP 5 things I <span>cannot </span>live without:
       </h2>

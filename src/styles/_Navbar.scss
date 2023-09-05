@@ -1,38 +1,42 @@
 .navbar {
-    position: sticky;
-    top: 0;
-    z-index: 3
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  border-bottom: 1px solid rgb(221, 203, 203);
+  background-color: rgb(41, 61, 74);
+
+  @media screen and (max-width: 1099px) {
+    border-bottom: none;
+  }
 }
 
 .navbar.expanded {
-    height: 0;
+  height: 0;
 }
-  .top-nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 25px 0; 
-    border-bottom: 1px solid rgb(221, 203, 203);
-    background-color: rgb(41, 61, 74);
-    z-index: 3;
-    cursor: pointer;
-    height: 71px;
-    // width: 100%;
-  }
 
- .menu {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    list-style-type: none;
-    font-family: 'Sanchez', serif;
-    font-size: 20px;
-  }
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 0; 
+  z-index: 3;
+  cursor: pointer;
+  height: 71px;
+}
 
-  li:hover {
-    animation: swing 1s ease;
-  }
+.menu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  font-family: 'Sanchez', serif;
+  font-size: 20px;
+}
+
+li:hover {
+  animation: swing 1s ease;
+}
 
 .menu li {
   margin: 0 1rem;
@@ -89,7 +93,7 @@
   transform: rotate(-405deg);
 }
 
- @media screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
 
   .navbar {
   height: 40px;
@@ -97,12 +101,12 @@
 }
 
   .navbar.expanded {
-  height: 280px;
-   }
+    height: 280px;
+}
 
   li:hover {
     animation: none
-  }
+}
 
   .top-nav {
     display: flex;

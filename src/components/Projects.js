@@ -9,7 +9,6 @@ import { forwardRef } from 'react';
 
 const Projects = forwardRef((props, ref) => {
   return (
-    <div>
       <div
         className='projects-container'
         ref={ref}>
@@ -137,7 +136,6 @@ const Projects = forwardRef((props, ref) => {
           </fieldset>
         </div>
       </div>
-    </div>
   );
 });
 
