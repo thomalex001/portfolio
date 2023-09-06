@@ -2,14 +2,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 20px
+  padding-bottom: 20px;
+
+  @media screen and (max-width: 449px) {
+    padding-top: 0;
+  }
 }
 
 .firstname {
   display: flex;
   align-items: baseline;
 
-  @media screen and (max-width: 699px) {
+  @media screen and (max-width: 449px) {
     flex-direction: column;
     align-items: center;
   }
@@ -26,17 +30,9 @@ font-size: 200px;
 margin: 0;
 transition: all 1s linear;
 
-  @media screen and (min-width: 450px) and (max-width: 1099px){
-  font-size: 100px;
-  }
-
-  @media screen and (max-width: 699px) {
-  font-size: 50px;
-  padding-top: 20px
-  }
-
   @media screen and (max-width: 449px) {
     font-size: 60px;
+    padding-top: 0
   }
 
   
