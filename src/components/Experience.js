@@ -11,22 +11,28 @@ const Experience = forwardRef((props, ref) => {
       ref={ref}>
       <h1>Experience</h1>
       <div className='experience-box'>
-        <a
-          href='https://generalassemb.ly/'
-          target='_blank'
-          rel='noreferrer'
-          alt='logo-general-assembly'>
-          <img
-            src={LogoGa}
-            alt='logo-general-assembly'
-          />
-        </a>
-        <h2>
-          General Assembly Immersive Software Engineering Course - London
-          (Online)
-        </h2>
-        <h2>Oct 2022 - Jan 2023</h2>
-        <h2> 9-5 Mon-Fri with 400+ hours of homework.</h2>
+        <div className='experience-header-section'>
+          <div className='experience-image-box'>
+            <a
+              href='https://generalassemb.ly/'
+              target='_blank'
+              rel='noreferrer'
+              alt='logo-general-assembly'>
+              <img
+                src={LogoGa}
+                alt='logo-general-assembly'
+              />
+            </a>
+          </div>
+          <div className='experience-header-text'>
+            <h2>
+              General Assembly Immersive Software Engineering Course - London
+              (Online)
+            </h2>
+            <h3>Oct 2022 - Jan 2023</h3>
+            <h3> 9-5 Mon-Fri with 400+ hours of homework.</h3>
+          </div>
+        </div>
         <p>
           General Assembly is a pioneer in education and career transformation,
           specializing in today’s most in-demand skills. What began as a
@@ -45,20 +51,27 @@ const Experience = forwardRef((props, ref) => {
         </p>
       </div>
       <div className='experience-box'>
-        <a
-          href='https://lafromagerie.co.uk/'
-          target='_blank'
-          rel='noreferrer'
-          alt='logo-la-fromagerie'>
-          <img
-            src={LogoLf}
-            alt='logo-la-fromagerie'
-          />
-        </a>
-        <h2>
-          Duty Manager - La Fromagerie Retail & Wholesale - London Marylebone
-        </h2>
-        <h2>Dec 2021 - Current (Part-Time) </h2>
+        <div className='experience-header-section'>
+          <div className='experience-image-box'>
+            <a
+              href='https://lafromagerie.co.uk/'
+              target='_blank'
+              rel='noreferrer'
+              alt='logo-la-fromagerie'>
+              <img
+                src={LogoLf}
+                alt='logo-la-fromagerie'
+              />
+            </a>
+          </div>
+          <div className='experience-header-text'>
+            <h2>
+              Duty Manager - La Fromagerie Retail & Wholesale - London
+              Marylebone
+            </h2>
+            <h3>Dec 2021 - Current (Part-Time) </h3>
+          </div>
+        </div>
         <p>
           La Fromagerie has three locations: Highbury (first opened 1992), it's
           flagship Marylebone (opened 2002) and more recently Bloomsbury. Each
@@ -77,18 +90,24 @@ const Experience = forwardRef((props, ref) => {
       <div
         id='experience-bottom-box'
         className='experience-box'>
-        <a
-          href='https://temperrestaurant.com/'
-          target='_blank'
-          rel='noreferrer'
-          alt='logo-temper-restaurant'>
-          <img
-            src={LogoTemper}
-            alt='logo-temper-restaurant'
-          />
-        </a>
-        <h2>General Manager - Temper Restaurants - London Soho</h2>
-        <h2>Feb 2019 - Dec 2021</h2>
+        <div className='experience-header-section'>
+          <div className='experience-image-box'>
+            <a
+              href='https://temperrestaurant.com/'
+              target='_blank'
+              rel='noreferrer'
+              alt='logo-temper-restaurant'>
+              <img
+                src={LogoTemper}
+                alt='logo-temper-restaurant'
+              />
+            </a>
+          </div>
+          <div className='experience-header-text'>
+            <h2>General Manager - Temper Restaurants - London Soho</h2>
+            <h3>Feb 2019 - Dec 2021</h3>
+          </div>
+        </div>
         <p>
           Temper Soho landed on the very competitive London food scene with a
           bang. The concept was simple: a unique 7 foot long fire pit with

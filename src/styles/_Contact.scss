@@ -21,7 +21,12 @@
   margin: 0;
   font-size: 20px;
   color: rgb(221, 203, 203);
+    
+  @media screen and (max-width: 449px) {
+    font-size: 16px
+  }
 }
+
 .contact-box {
   display: flex; 
   cursor: pointer;
