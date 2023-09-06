@@ -2,22 +2,28 @@
 export const SliderData = [
   {
     image:
-      'https://raw.githubusercontent.com/thomalex001/portfolio/main/src/assets/turntable.png?token=GHSAT0AAAAAACGI4AIJ2Y467QHUZJJRTMBYZHYRZOA'
+      'https://raw.githubusercontent.com/thomalex001/portfolio/main/src/assets/turntable.png?token=GHSAT0AAAAAACGI4AIIYN6S3WXXV25UPBWUZHYTZOQ',
+    alt: 'turntable'
   },
   {
     image:
-      'https://images.unsplash.com/photo-1501446529957-6226bd447c46?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1489&q=80'
+      'https://raw.githubusercontent.com/thomalex001/portfolio/main/src/assets/jazz-cafe.jpg?token=GHSAT0AAAAAACGI4AIIG2KEZSYKPNHMDLOYZHYSTYQ',
+    alt: 'jazz-cafe'
   },
+
   {
     image:
-      'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80'
+      'https://raw.githubusercontent.com/thomalex001/portfolio/main/src/assets/travel.png?token=GHSAT0AAAAAACGI4AIIBDRTCTDL62CFTQIUZHYSWDA',
+    alt: 'travel'
   },
+
   {
     image:
-      'https://images.unsplash.com/photo-1475189778702-5ec9941484ae?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1351&q=80'
-  },
-  {
-    image:
-      'https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80'
+      'https://raw.githubusercontent.com/thomalex001/portfolio/main/src/assets/bread.jpg?token=GHSAT0AAAAAACGI4AIJXMEU2GWO4WNFKWMKZHYS7IQ',
+    alt: 'bread'
   }
+
+  // {
+  //   image: ''
+  // }
 ];
