@@ -6,10 +6,12 @@ import { forwardRef } from 'react';
 const Contact = forwardRef((props, ref) => {
   const linkToCopy = 'thomasalex06@gmail.com';
   return (
-    <footer className='contact-container' ref={ref}>
+    <footer
+      className='contact-container'
+      ref={ref}>
       <h1>Contact</h1>
       <div className='contact-inner-container'>
-        <div className='email-box'>
+        <div className='email-box-container'>
           <Icon
             name='mail'
             size='big'
@@ -18,7 +20,7 @@ const Contact = forwardRef((props, ref) => {
           <h2>thomasalex06@gmail</h2>
           <CopyButton link={linkToCopy} />
         </div>
-        <div className='contact-box'>
+        <div className='linked-in-contact-box'>
           <Icon
             className='icon'
             name='linkedin'
@@ -33,7 +35,7 @@ const Contact = forwardRef((props, ref) => {
             <h2>in/alex-thomas-london</h2>
           </a>
         </div>
-        <div className='contact-box'>
+        <div className='github-contact-box'>
           <Icon
             name='github square'
             size='big'

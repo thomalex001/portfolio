@@ -9,12 +9,13 @@
 }
 .about-me-container h2 {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   margin: 0;
   font-size: 20px;
    
     @media screen and (max-width: 449px) {
-      font-size: 16px
+      font-size: 16px;
+      padding-bottom: 10px;
   }
 }
 
@@ -25,3 +26,5 @@
 .about-me-container span {
   text-decoration: underline;
 }
+
+

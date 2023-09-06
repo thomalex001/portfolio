@@ -8,11 +8,12 @@
   display: flex;
   position: relative;
   justify-content: center;
-  height: 350px;
+  // height: 100%;
   align-items: center;
   transform: scale(0.92);
+
     @media screen and (max-width: 449px) {
-      height: 200px
+      // height: 100%
     }
 }
 
@@ -36,23 +37,10 @@
   user-select: none;
 }
 
-.right-arrow:hover {
-
-  @media screen and (min-width: 1099px) {
-    color: black
-}
-}
-
-.left-arrow:hover {
-  @media screen and (min-width: 1099px) {
-    color: black
-}
-}
-
 .left-arrow {
   position: absolute;
   // top: 50%;
-  left: 10%;
+  left: 5%;
   font-size: 3rem;
   color: #ffffff62;
   z-index: 10;

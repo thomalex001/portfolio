@@ -1,25 +1,30 @@
+// import Image1 from '../../assets/turntable.png';
+import Image2 from '../../assets/jazz-cafe.png';
+import Image3 from '../../assets/travel.png';
+import Image4 from '../../assets/bread.jpg';
+
+
 
 export const SliderData = [
   {
-    image:
-      'https://raw.githubusercontent.com/thomalex001/portfolio/main/src/assets/turntable.png?token=GHSAT0AAAAAACGI4AIIYN6S3WXXV25UPBWUZHYTZOQ',
+    // image: Image1,
     alt: 'turntable'
   },
   {
     image:
-      'https://raw.githubusercontent.com/thomalex001/portfolio/main/src/assets/jazz-cafe.jpg?token=GHSAT0AAAAAACGI4AIIG2KEZSYKPNHMDLOYZHYSTYQ',
+      Image2,
     alt: 'jazz-cafe'
   },
 
   {
     image:
-      'https://raw.githubusercontent.com/thomalex001/portfolio/main/src/assets/travel.png?token=GHSAT0AAAAAACGI4AIIBDRTCTDL62CFTQIUZHYSWDA',
+      Image3,
     alt: 'travel'
   },
 
   {
     image:
-      'https://raw.githubusercontent.com/thomalex001/portfolio/main/src/assets/bread.jpg?token=GHSAT0AAAAAACGI4AIJXMEU2GWO4WNFKWMKZHYS7IQ',
+      Image4,
     alt: 'bread'
   }
 

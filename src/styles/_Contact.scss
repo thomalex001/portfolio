@@ -27,21 +27,27 @@
   }
 }
 
-.contact-box {
+.email-box-container {
+  display: flex; 
+  align-items: center;
+  position: relative;
+}
+
+.linked-in-contact-box, .github-contact-box {
   display: flex; 
   cursor: pointer;
-  
-  @media screen and (max-width: 449px) {
-    padding: 5px 0
-  }
+  align-items: center;
+}
+
+.linked-in-contact-box{
+
+  @media screen and (max-width: 1099px) {
+      padding: 5px 0
+    }
 }
 
 .contact-box:hover {
 transform: scale(1.1);
-}
-
-.email-box {
-  display: flex; 
 }
 
 .email-box:hover {
@@ -54,9 +60,20 @@ transform: scale(1.1);
 
 #copy-button {
   width: 10px;
-  padding-left: 5px;
+  left: 101%;
+  padding-bottom: 10px;
   filter: brightness(75%);
   color: rgb(255, 255, 255);
+  font-size: 13px;
+  position: absolute;
+
+  @media screen and (max-width: 1099px) {
+    left: 88%;
+  }
+
+  @media screen and (max-width: 449px) {
+    font-size: 12px
+  }
 }
 
 #copy-button:hover {
