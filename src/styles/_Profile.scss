@@ -23,12 +23,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+    @media screen and (min-width: 450px) {
+    align-items: first baseline;
+  }
 }
 
 .fullname-container h1 {
-font-size: 200px;
+font-size: 190px;
 margin: 0;
 transition: all 1s linear;
+
+  @media screen and (max-width: 1099px) {
+    font-size: 100px;
+  }
 
   @media screen and (max-width: 449px) {
     font-size: 60px;
@@ -39,7 +47,7 @@ transition: all 1s linear;
 }
 
 #last-name {
-    @media screen and (max-width: 699px) {
+    @media screen and (max-width: 449px) {
       padding: 0
   }
 }
@@ -47,10 +55,9 @@ transition: all 1s linear;
 .fullname-container h2 {
   font-size: 40px;
   padding-left: 20px;
-  
-  @media screen and (min-width: 450px) and (max-width: 1099px){
-    font-size: 20px;
-    padding-left: 10px;
+
+    @media screen and (max-width: 1099px) {
+    font-size: 17px
   }
 
   @media screen and (max-width: 449px) {
@@ -62,10 +69,6 @@ transition: all 1s linear;
 .image-container {
   flex: 1;
   padding: 0 30px 0 30px;
-
-  @media screen and (max-width: 449px) {
-    padding: 0
-  }
 }
 
 .image-and-text-container {
@@ -74,9 +77,10 @@ transition: all 1s linear;
   align-items: center;
   padding: 0 40px;
 
-  @media screen and (min-width: 450px) and (max-width: 699px) {
+  @media screen and (max-width: 1099px) {
     flex-direction: column;
     align-items: center;
+    padding: 0;
   }
   @media screen and (max-width: 449px) {
     flex-direction: column;
@@ -109,16 +113,12 @@ padding: 0 30px 0 30px;
     font-size: 20px;
     text-align: justify;
 
-@media screen and (min-width: 450px) and (max-width: 699px) {
-    font-size: 25px;
-  }
 @media screen and (max-width: 449px) {
     font-size: 20px;
     padding: 10px 
   }
 
 }
-
 
 .profileImage {
   border-radius: 100%;
@@ -136,6 +136,10 @@ padding: 0 30px 0 30px;
 
 .profileImage:hover{
   filter: blur(5px) brightness(50%);
+
+     @media screen and (max-width: 1099px) {
+  filter: none
+  }
 }
 
 .overlay-git-icon {
@@ -148,6 +152,9 @@ padding: 0 30px 0 30px;
   transition: opacity 0.3s ease-in-out;
   cursor: pointer;
   z-index: 1;
+       @media screen and (max-width: 1099px) {
+  display: none
+  }
 }
 
 .overlay-git-icon:hover {
@@ -164,7 +171,11 @@ padding: 0 30px 0 30px;
   transition: opacity 0.3s ease-in-out;
   cursor: pointer;
   z-index: 1;
+         @media screen and (max-width: 1099px) {
+  display: none
+  }
 }
+
 .overlay-linkedin-icon:hover {
   transform: scale(1.1);
   transition: all .2s;
@@ -180,6 +191,9 @@ padding: 0 30px 0 30px;
 
 .overlay-container:hover .profileImage {
   filter: blur(5px) brightness(50%);
+         @media screen and (max-width: 1099px) {
+  filter: brightness(80%);
+  }
 }
 
 // }

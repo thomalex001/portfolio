@@ -11,7 +11,7 @@
   justify-content: space-around;
   width: 100vw;
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1099px) {
   flex-direction: column;
   width: auto
   }
@@ -31,7 +31,7 @@
   display: flex; 
   cursor: pointer;
   
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 449px) {
     padding: 5px 0
   }
 }
@@ -47,7 +47,7 @@ transform: scale(1.1);
 .email-box:hover {
   transform: scale(1.1);
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 449px) {
     transform: none
   }
 }

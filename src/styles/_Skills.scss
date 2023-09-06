@@ -4,7 +4,7 @@
   align-items: center;
   background-color: rgba(255, 255, 255, 0.365);
   
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 449px) {
     padding-bottom: 20px
   }
 }
@@ -40,7 +40,6 @@
 .icons-container img:hover {
   transform: scale(1.1);
   transition: all .2s;
-  cursor: pointer;
 }
 
 .icon-section{
@@ -49,7 +48,7 @@
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 449px) {
   align-items: flex-end;
 }
   
@@ -74,7 +73,7 @@
   font-size: 15px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 1099px) {
     opacity: 1;
     padding: 0 5px
 }
