@@ -13,7 +13,7 @@ const AboutMe = forwardRef((props, ref)  => {
       ref={ref}>
       <h1 className=''>More About Me</h1>
       <h2>
-        Here are the TOP 5 things I <span>cannot </span>live without:
+        Here is a slide of the TOP 5 things I <span>cannot </span>live without:
       </h2>
       <ImageSlider
         classname='image-slider'
