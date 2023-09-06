@@ -2,7 +2,7 @@
 export const SliderData = [
   {
     image:
-      'https://github.com/thomalex001/portfolio/blob/main/src/assets/turntable.png?raw=true'
+      'https://raw.githubusercontent.com/thomalex001/portfolio/main/src/assets/turntable.png?token=GHSAT0AAAAAACGI4AIJ2Y467QHUZJJRTMBYZHYRZOA'
   },
   {
     image:
