@@ -1,15 +1,18 @@
 .slider {
   position: relative;
-  height: 400px;
-  display: flex;
   justify-content: center;
   align-items: center;
+  transform: scale(0.92);
+    @media screen and (max-width: 449px) {
+    }
 }
 
 .image {
-  width: 800px;
-  height: 400px;
+  width: 100%;
+  max-width: 500px;
   border-radius: 10px;
+  @media screen and (max-width: 449px) {
+  }
 }
 
 .right-arrow {
@@ -24,10 +27,16 @@
 }
 
 .right-arrow:hover {
-  color: black
+
+  @media screen and (min-width: 1099px) {
+    color: black
 }
+}
+
 .left-arrow:hover {
-  color: black
+  @media screen and (min-width: 1099px) {
+    color: black
+}
 }
 
 .left-arrow {

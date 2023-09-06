@@ -1,20 +1,24 @@
-import ProfileImage from '../assets/profile.png'
+import ProfileImage from '../assets/profile-sq.png'
 import gitIcon from '../assets/icons/github-profile-icon.png'
 import linkedInIcon from '../assets/icons/linkedin-profile-icon.png';
 
-const MainPage = () => {
+const Profile = () => {
   return (
-    <div>
-      <div className='firstAndLastName'>
+    <div className='profile-container'>
+      <div className='fullname-container'>
         <div className='firstname'>
-          <h1>A L E X</h1>
-          <h2>Junior Software Engineer.</h2>
+          <h1 className='animate__animated animate__slideInLeft'>A L E X</h1>
+          <h2 className='animate__animated animate__bounceInDown animate__delay-1s	'>
+            Junior Software Engineer.
+          </h2>
         </div>
         <div>
-          <h1>T H O M A S</h1>
+          <h1 id='last-name' className='animate__animated animate__slideInRight	'>
+            T H O M A S
+          </h1>
         </div>
       </div>
-      <div className='profile-container'>
+      <div className='image-and-text-container'>
         <div className='image-container'>
           <div className='overlay-container'>
             <img
@@ -44,15 +48,15 @@ const MainPage = () => {
             </a>
           </div>
         </div>
-        <div className='profile-text'>
+        <div className='profile-text-container'>
           <h3>A little bit about me...</h3>
-          <h4>
+          <p>
             Hi there 👋 I'm Alex! I have been fascinated with the Tech industry
             for many years and recently discovered a love for coding. I
             litteraly caught the bug (no pun intended) whilst self-learning
             which led me to seek a career change in this field.
-          </h4>
-          <h4>
+          </p>
+          <p>
             And so, in late 2022, I enrolled in a Software Engineering Immersive
             course to dive deeper into all aspects of Full-Stack Engineering. My
             background is in hospitality with over 15 years experience where I
@@ -60,11 +64,11 @@ const MainPage = () => {
             environment that is as challenging as it is rewarding. I love
             working within team, helping others and getting out of my comfort
             zone when I can!
-          </h4>
+          </p>
         </div>
       </div>
     </div>
   );
 }
 
-export default MainPage
+export default Profile

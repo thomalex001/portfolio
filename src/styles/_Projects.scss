@@ -1,45 +1,64 @@
 .projects-container {
-  // background-color: rgba(36, 61, 79, 0.871); 
-  // box-shadow: 0 0 10px 10px rgba(34, 35, 34, 0.3);
   font-family: 'Questrial', sans-serif;
-  border: 1px solid white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 5%;
-  margin: 1%
 }
 
-.projects-container h1 {
-  text-align: center;
-  border-bottom: 1px solid white;
-  width: 20%;
-  padding: 20px;
-  margin-top: 4%
+.project-legend {
+  font-size:25px;
+  padding: 10px 10px
 }
 
-.projects-box {
-  display: flex;
-  flex-wrap: wrap;
+.project-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  grid-auto-rows: minmax(100px, auto);
+  justify-items: center;
+  
+  @media screen and (max-width: 449px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    ;
+  }
 }
+
+.project-box a {
+text-decoration: underline;}
 
 .project {
   text-align: center;
-  width: 50%;
-  padding-bottom: 5%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%
 }
-.project h4 {
-  text-align:left;
-  width: 80%;
-  padding-left: 10%;
+
+#project1-box {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+
+#project2-box {
+  grid-column: 2 / 2;
+  grid-row: 1;
+}
+
+.project p {
+  text-align: justify;
+  width: 100%;
+  padding: 10px;
+
+  @media screen and (max-width: 449px) {
+  }
 }
 
 .project img {
-  width: 90%;
-  height: 400px;
+  width: 100%;
   border-radius: 2%;
   background-size: cover;
   box-shadow: 2px 2px 5px black;

@@ -1,25 +1,27 @@
 .about-me-container {
-  height: 750px;
-  margin-top: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
-    border-bottom: 1px solid white;
-
 }
 
-.about-me-container h1 {
-  width: 22%;
+.about-me-container a {
+  text-decoration: underline;
+}
+.about-me-container h2 {
   text-align: center;
-  border-bottom: 1px solid white;
-  padding-bottom: 2%;
-  // margin: 5%
+  padding-bottom: 30px;
+  margin: 0;
+  font-size: 20px;
+   
+    @media screen and (max-width: 449px) {
+      font-size: 16px
+  }
 }
 
 .about-me-container h3 {
-  width: 60%;
-  text-align: center
+  text-align: center;
+  font-size: 15px
 }
-#about-me-span {
-  font-size: 25px
+.about-me-container span {
+  text-decoration: underline;
 }

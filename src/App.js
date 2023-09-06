@@ -1,7 +1,5 @@
-import './App.scss';
-import { Routes, Route } from 'react-router';
 import Navbar from './components/Navbar';
-import MainPage from './components/MainPage';
+import Profile from './components/Profile';
 import Projects from './components/Projects'
 import Experience from './components/Experience';
 import AboutMe from './components/AboutMe';
@@ -25,12 +23,14 @@ function App() {
         experienceSection={experienceSection}
         contactSection={contactSection}
       />
-      <MainPage />
-      <Skills ref={skillsSection} />
-      <Projects ref={projectsSection} />
-      <Experience ref={experienceSection} />
-      <AboutMe ref={aboutSection} />
-      <Contact ref={contactSection}  />
+      <main>
+        <Profile />
+        <Skills ref={skillsSection} />
+        <Projects ref={projectsSection} />
+        <Experience ref={experienceSection} />
+        <AboutMe ref={aboutSection} />
+        <Contact ref={contactSection} />
+      </main>
     </>
   );
 }

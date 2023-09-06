@@ -1,51 +1,60 @@
 .skills-container {
-  height: 750px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 1% 0 1%;
+  background-color: rgba(255, 255, 255, 0.365);
+  
+  @media screen and (max-width: 449px) {
+    padding-bottom: 20px
+  }
 }
 
-.skills-container h1 {
-  width: 22%;
-  text-align: center;
-  border-bottom: 1px solid white;
-  padding-bottom: 2%;
-  margin: 5%;
-  
+#skills-title {
+  color: black;
+  border-bottom: 1px solid black;
 }
 
 .skills-container h2 {
   color: black;
-}
-.icons-container img {
-  z-index: 0;
-  width: 55px;
-  filter:brightness(0%);
-  margin: 1%;
+  font-size: 20px;
+      
+  @media screen and (max-width: 449px) {
+    font-size: 16px
+  }
 }
 
-.icons-container img:hover {
-  transform: scale(1.1);
-  transition: all .2s;
-  cursor: pointer;;
-}
 .icons-container {
   display:flex;
   align-items: center;
   flex-direction: column;
   text-align: center;
 }
+.icons-container img {
+  z-index: 0;
+  width: 55px;
+  filter:invert(1);
+  filter:brightness(0);
+  margin: 0 5px;
+}
+
+.icons-container img:hover {
+  transform: scale(1.1);
+  transition: all .2s;
+}
+
 .icon-section{
-  padding-bottom: 2%;
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: center;
-  width: 600px
+  flex-wrap: wrap;
+  @media screen and (max-width: 449px) {
+  align-items: flex-end;
+}
+  
 }
 #cloudinary {
-  width: 70px
+  width: 65px
 }
 #mongodb {
   width: 30px
@@ -54,8 +63,22 @@
   width: 80px
 }
 
-#bulma {
-  width: 80px
+// #bulma {
+//   width: 80px
+// }
+
+.icon-text {
+  opacity: 0;
+  color: black;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  @media screen and (max-width: 1099px) {
+    opacity: 1;
+    padding: 0 5px
+}
 }
 
-
+.icon-section :hover .icon-text {
+  opacity: 1;
+}
