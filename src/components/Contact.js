@@ -11,7 +11,7 @@ const Contact = forwardRef((props, ref) => {
       ref={ref}>
       <h1>Contact</h1>
       <div className='contact-inner-container'>
-        <div className='email-box-container'>
+        <div className='email-contact-box'>
           <Icon
             name='mail'
             size='big'

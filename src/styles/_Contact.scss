@@ -27,33 +27,15 @@
   }
 }
 
-.email-box-container {
+.email-contact-box {
   display: flex; 
   align-items: center;
   position: relative;
 }
-
-.linked-in-contact-box, .github-contact-box {
-  display: flex; 
-  cursor: pointer;
-  align-items: center;
-}
-
-.linked-in-contact-box{
-
-  @media screen and (max-width: 1099px) {
-      padding: 5px 0
-    }
-}
-
-.contact-box:hover {
-transform: scale(1.1);
-}
-
-.email-box:hover {
+.email-contact-box:hover {
   transform: scale(1.1);
 
-  @media screen and (max-width: 449px) {
+  @media screen and (max-width: 1099px) {
     transform: none
   }
 }
@@ -78,4 +60,25 @@ transform: scale(1.1);
 
 #copy-button:hover {
  cursor:pointer
+}
+
+.linked-in-contact-box, .github-contact-box {
+  display: flex; 
+  cursor: pointer;
+  align-items: center;
+}
+
+.linked-in-contact-box{
+
+  @media screen and (max-width: 1099px) {
+      padding: 5px 0
+    }
+}
+
+.linked-in-contact-box:hover, .github-contact-box:hover {
+transform: scale(1.1);
+
+  @media screen and (max-width: 1099px) {
+    transform: none
+  }
 }

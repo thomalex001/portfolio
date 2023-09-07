@@ -4,15 +4,14 @@
   z-index: 3;
   border-bottom: 1px solid rgb(221, 203, 203);
   background-color: rgb(41, 61, 74);
-
   @media screen and (max-width: 1099px) {
     border-bottom: none;
   }
 }
 
-.navbar.expanded {
-  height: 0;
-}
+// .navbar.expanded {
+//   height: 0;
+// }
 
 .top-nav {
   display: flex;
@@ -97,11 +96,11 @@ li:hover {
 
   .navbar {
   height: 71px;
-  transition: .4s ease-in-out
+  transition: .4s ease-in-out;
 }
 
   .navbar.expanded {
-    height: 280px;
+    height: 298px;
 }
 
   li:hover {
