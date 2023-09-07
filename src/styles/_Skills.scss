@@ -18,8 +18,12 @@
   color: black;
   font-size: 20px;
       
+  @media screen and (max-width: 1099px) {
+  margin-bottom: 5px;
+  }
   @media screen and (max-width: 449px) {
-    font-size: 16px
+    font-size: 19px;
+    margin-bottom: 5px
   }
 }
 
@@ -35,6 +39,9 @@
   filter:invert(1);
   filter:brightness(0);
   margin: 0 5px;
+      @media screen and (max-width: 449px) {
+    padding-top: 5px;
+  }
 }
 
 .icons-container img:hover {
@@ -48,11 +55,9 @@
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  @media screen and (max-width: 449px) {
   align-items: flex-end;
 }
-  
-}
+
 #cloudinary {
   width: 65px
 }

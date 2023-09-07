@@ -11,20 +11,18 @@
   align-items: center;
   justify-content: center;
   border-bottom: 1px solid rgb(221, 203, 203);
-    @media screen and (max-width: 449px) {
-      // width: 100%;
-    }
 }
 
 .experience-header-section {
   display: flex;
   justify-content: space-between;
   padding: 0 20%;
+
   @media screen and (max-width: 1099px) {
     flex-direction: column;
     align-items: center;
     padding: 0;
-    text-align: center
+    text-align: center;
   }
 }
 
@@ -47,7 +45,7 @@
   padding: 0 10px 10px;
   margin: 0;
 
-  @media screen and (max-width: 449px) {
+           @media screen and (max-width: 449px) {
     font-size: 19px
   }
 }
