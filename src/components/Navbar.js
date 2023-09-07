@@ -3,13 +3,18 @@ import { useState } from 'react';
 
 const navbarHeight = 71;
 
-const Navbar = ({ aboutSection, skillsSection, experienceSection, projectsSection, contactSection }) => {
-  
-    const [isNavbarOpen, setIsNavbarOpen] = useState(false);
-    const toggleNavbar = () => {
-      setIsNavbarOpen(!isNavbarOpen);
-    };
-  
+const Navbar = ({
+  aboutSection,
+  skillsSection,
+  experienceSection,
+  projectsSection,
+  contactSection
+}) => {
+  const [isNavbarOpen, setIsNavbarOpen] = useState(false);
+  const toggleNavbar = () => {
+    setIsNavbarOpen(!isNavbarOpen);
+  };
+
   const scrollDownToAbout = () => {
     if (aboutSection && aboutSection.current) {
       window.scrollTo({
@@ -35,23 +40,22 @@ const Navbar = ({ aboutSection, skillsSection, experienceSection, projectsSectio
       });
     }
   };
-    const scrollDownToProjects= () => {
-      if (projectsSection && projectsSection.current) {
-        window.scrollTo({
-          top: projectsSection.current.offsetTop - navbarHeight,
-          behavior: 'smooth'
-        });
-      }
-    };
-    const scrollDownToContact= () => {
-      if (contactSection && contactSection.current) {
-        window.scrollTo({
-          top: contactSection.current.offsetTop - navbarHeight,
-          behavior: 'smooth'
-        });
-      };
-
-    };
+  const scrollDownToProjects = () => {
+    if (projectsSection && projectsSection.current) {
+      window.scrollTo({
+        top: projectsSection.current.offsetTop - navbarHeight,
+        behavior: 'smooth'
+      });
+    }
+  };
+  const scrollDownToContact = () => {
+    if (contactSection && contactSection.current) {
+      window.scrollTo({
+        top: contactSection.current.offsetTop - navbarHeight,
+        behavior: 'smooth'
+      });
+    }
+  };
   return (
     <header className={`navbar ${isNavbarOpen ? 'expanded' : ''}`}>
       <section className='top-nav'>
@@ -62,12 +66,15 @@ const Navbar = ({ aboutSection, skillsSection, experienceSection, projectsSectio
         <label
           className='menu-button-container'
           htmlFor='menu-toggle'
-          onClick={toggleNavbar} 
-        >
+          onClick={toggleNavbar}>
           <div className='menu-button'></div>
         </label>
         <ul className='menu'>
-          <li id='li-skills' onClick={scrollDownToSkills}>Skills</li>
+          <li
+            id='li-skills'
+            onClick={scrollDownToSkills}>
+            Skills
+          </li>
           <li onClick={scrollDownToProjects}>Projects</li>
           <li onClick={scrollDownToExperience}>Experience</li>
           <li onClick={scrollDownToAbout}>More About Me</li>
@@ -79,8 +86,3 @@ const Navbar = ({ aboutSection, skillsSection, experienceSection, projectsSectio
 };
 
 export default Navbar;
-
-
-
-
-

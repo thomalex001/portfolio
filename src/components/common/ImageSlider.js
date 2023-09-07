@@ -5,7 +5,7 @@ import { SlArrowLeft, SlArrowRight } from 'react-icons/sl';
 const ImageSlider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
   const length = slides.length;
-  console.log('SLIDES', slides.length)
+  console.log('SLIDES', slides.length);
 
   const nextSlide = () => {
     setCurrent(current === length - 1 ? 0 : current + 1);
@@ -34,14 +34,13 @@ const ImageSlider = ({ slides }) => {
           return (
             <div
               className={index === current ? 'slide active' : 'slide'}
-              key={index}>
-              {index === current && (
-                <img
-                  src={slide.image}
-                  alt={slide.alt}
-                  className='image'
-                />
-              )}
+              key={index}
+            >
+              <img
+                src={slide.image}
+                alt={slide.alt}
+                className='image'
+              />
             </div>
           );
         })}
