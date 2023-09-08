@@ -1,5 +1,9 @@
 .top-to-btm{
   position: relative;
+
+  @media screen and (max-width: 449px) {
+    display: none
+  }
 }
 .icon-position{
   position: fixed;
