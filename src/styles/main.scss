@@ -21,10 +21,19 @@ body {
   font-size: 16px;
 }
 
+
+
 .profile-container, .projects-container, .experience-container, .about-me-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+    
+  @media screen and (min-width: 449px) {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  @media screen and (max-width: 1099px) {
+    padding: 0 20px 20px;
+  }
 }
 
 
@@ -33,13 +42,23 @@ body {
   margin: 0 auto;
 }
 .skills-container {
-  padding: 20px;
+  @media screen and (min-width: 449px) {
+    padding: 20px;
+  }
+  @media screen and (max-width: 1099px) {
+    padding: 0 20px 20px;
+  }
 }
 .skills-container h1, .projects-container h1, .experience-container h1, .about-me-container h1, .contact-container h1 {
   padding: 20px 20px 8px;
   margin-bottom: 30px;
   text-align: center;
   border-bottom: 1px solid rgb(221, 203, 203);
+
+  @media screen and (max-width: 1099px) {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+  }
 }
 
 

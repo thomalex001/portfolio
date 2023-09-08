@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 
-const navbarHeight = 71;
+const navbarHeight = 60;
 
 const Navbar = ({
   aboutSection,
