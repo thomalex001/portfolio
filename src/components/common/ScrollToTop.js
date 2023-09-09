@@ -14,7 +14,7 @@ function ScrollToTop() {
       const windowHeight = window.innerHeight;
       const scrollY = window.scrollY 
 
-      const threshold = -1000;
+      const threshold = -100;
 
       return scrollY >= windowHeight - threshold;
     }
