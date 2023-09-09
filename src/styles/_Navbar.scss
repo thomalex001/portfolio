@@ -44,16 +44,6 @@
   }
 }
 
-// .menu li {
-//   margin: 0 1rem;
-//   overflow: hidden;
-//   transition: all .2s ease-in-out;
-// }
-
-// .menu li:hover {
-//   transform: scale(1.1);
-// }
-
 .menu-button-container {
   display: none;
   height: 100%;
@@ -62,6 +52,7 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  padding: 16px;
 }
 
 #menu-toggle {

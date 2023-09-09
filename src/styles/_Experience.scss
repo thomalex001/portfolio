@@ -30,6 +30,10 @@
   width: 30%;
   display: flex;
   justify-content: center;
+
+  @media screen and (max-width: 449px) {
+    width: 100%;
+  }
 }
 
 .experience-container img {
@@ -39,14 +43,19 @@
 
 .experience-header-text {
   width: 70%;
+  
+  @media screen and (max-width: 449px) {
+    width: 100%;
+  }
 }
 .experience-header-text h2 {
   font-size: 20px;
   padding: 0 10px 10px;
   margin: 0;
 
-           @media screen and (max-width: 449px) {
-    font-size: 19px
+    @media screen and (max-width: 449px) {
+    font-size: 19px;
+    width: 100%
   }
 }
 
@@ -62,6 +71,7 @@
 .experience-box p {
   text-align: justify;
   padding: 0 20%;
+
 @media screen and (max-width: 449px) {
   padding: 0
   }
