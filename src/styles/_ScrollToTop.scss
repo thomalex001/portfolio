@@ -1,7 +1,7 @@
 .top-to-btm{
   position: relative;
 
-  @media screen and (max-width: 449px) {
+  @media screen and (max-width: 1099px) {
     display: none
   }
 }
@@ -12,7 +12,6 @@
   z-index: 20;
 }
 .icon-style{
-  background-color: #1712758c;
   border: 2px solid #ffffffa3;
   border-radius: 50%;
   height: 50px;
@@ -23,7 +22,6 @@
 }
 .icon-style:hover{
   animation: none;
-  background: #1712758c;
   color: #ffffff;
   border: 2px solid #ffffff;
 }

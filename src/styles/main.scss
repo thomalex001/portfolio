@@ -11,7 +11,6 @@
 html {
   scroll-behavior: smooth;
 }
-
 body {
   background-color: rgb(41, 61, 74);
   color: rgb(221, 203, 203);
@@ -21,7 +20,9 @@ body {
   font-size: 16px;
 }
 
-
+img {
+  max-width: 100%;
+}
 
 .profile-container, .projects-container, .experience-container, .about-me-container {
     
@@ -35,7 +36,6 @@ body {
     padding: 0 20px 20px;
   }
 }
-
 
 .top-nav, .contact-inner-container {
   max-width: 1200px;
@@ -61,6 +61,9 @@ body {
   }
 }
 
+a {
+  color: rgb(221, 203, 203);
+}
 
 a:visited {
   color: rgb(221, 203, 203);

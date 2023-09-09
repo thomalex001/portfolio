@@ -69,7 +69,7 @@ const Experience = forwardRef((props, ref) => {
               Duty Manager - La Fromagerie Retail & Wholesale - London
               Marylebone
             </h2>
-            <h3>Dec 2021 - Current (Part-Time) </h3>
+            <h3>Dec 2021 - Current{' '}(Part-Time) </h3>
           </div>
         </div>
         <p>
