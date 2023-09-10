@@ -80,7 +80,7 @@ const Experience = forwardRef((props, ref) => {
           throughout the year. The Wholesale Department has a dedicated team of
           cheesemongers based in a warehouse in Highbury, where the affinage
           operations take place in specially designed cheese rooms devoted to
-          maturing & refining cheese. Over the years La Fromagerie has become
+          maturing & refining cheese.<br></br>Over the years La Fromagerie has become
           the London "go to" place for cheese lovers but also anyone attracted
           to a wide range of delicious homemade foods, as well as French/Italian
           products sometimes difficult (or impossible?!) to get your hands on in
@@ -112,7 +112,7 @@ const Experience = forwardRef((props, ref) => {
           Temper Soho landed on the very competitive London food scene with a
           bang. The concept was simple: a unique 7 foot long fire pit with
           counter seats all around as well as comfy booths, set in a basement in
-          the heart of Soho's buzzing nightlife. Music would be loud with 80's
+          the heart of Soho's buzzing nightlife.<br></br>Music would be loud with 80's
           Hits, 90's Hip Hop or noughties Garage. Award Winning cocktails would
           complement the South American spicy and smoky bold flavors and chef
           Neil Rankin would be the star of the show. 6 years later and it keeps

@@ -60,10 +60,10 @@ const Profile = () => {
             And so, in late 2022, I enrolled in a Software Engineering Immersive
             course to dive deeper into all aspects of Full-Stack Engineering. My
             background is in hospitality with over 15 years experience where I
-            had the opportunity to work with passionate and fun people in an
+            had the chance to work with passionate and fun people in an
             environment that is as challenging as it is rewarding. I love
             working within team, helping others and getting out of my comfort
-            zone when I can!
+            zone when the opportunity comes along!
           </p>
         </div>
       </div>

@@ -35,7 +35,7 @@ const Projects = forwardRef((props, ref) => {
               Built a Mario inspired Space Invaders game using only HTML, CSS
               and powered it with JavaScript. A challenging first project as I
               had only two weeks of Javascript/CSS knowledge and I designed the
-              entire game by myself. Creating a fully working game in such a
+              entire game by myself. <br></br>Creating a fully working game in such a
               short amount of time was very rewarding, adding designs and sounds
               was really fun too. Key learning and takeways were to practice JavaScript
               in the DOM and the importance of planning. Mario World Invaders can be played 
@@ -64,7 +64,7 @@ const Projects = forwardRef((props, ref) => {
               pair-programming hackathon using an open-library API of the
               popular Rick & Morty animated series. The multi page application
               displays each character’s names, images and episode lists among
-              others. As well as sharing strengths and skills, this project
+              others.<br></br>As well as sharing strengths and skills, this project
               really helped me consolidate my Javascript knowledge and
               introduced me to backend programming using Postman. The app is
               styled using SASS and MUI React components and it is deployed on
@@ -97,7 +97,7 @@ const Projects = forwardRef((props, ref) => {
               planning using a detailed wireframe. Constant communication with
               my classmates on our Trello board was essential and version
               control with Git-Hub ensured a linear workflow which simulated a
-              realistic work environment. The app is styled with MUI React
+              realistic work environment.<br></br>The app is styled with MUI React
               components plus added CSS. The database is deployed on MongoDB
               Cloud through a DB URI. The frontend is deployed on Netlify and
               the backend on Heroku.
@@ -127,7 +127,7 @@ const Projects = forwardRef((props, ref) => {
               a full-stack application using a newly acquired language (Python)
               and framework (Django). Vintage Custom Cycles is a marketplace to
               buy second-hand bike products with the purpose of building your
-              own bike. Inspired by e-commerce websites, the app allows buyers
+              own bike.<br></br>Inspired by e-commerce websites, the app allows buyers
               to select their chosen products and virtually build a bike from
               spare parts, they can also place an order and see a confirmation
               with a summary of the items bought. The app is styled with MUI

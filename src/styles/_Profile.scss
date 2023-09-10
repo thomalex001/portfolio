@@ -111,12 +111,6 @@
 .profile-text-container p {
   font-size: 20px;
   text-align: justify;
-
-  @media screen and (max-width: 449px) {
-    font-size: 20px;
-    padding: 10px 
-  }
-
 }
 
 .profileImage {
