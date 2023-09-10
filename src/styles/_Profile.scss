@@ -14,7 +14,7 @@
   display: flex;
   align-items: baseline;
 
-  @media screen and (max-width: 449px) {
+  @media screen and (max-width: 572px) {
     flex-direction: column;
     align-items: center;
   }
@@ -25,7 +25,7 @@
   flex-direction: column;
   align-items: center;
 
-    @media screen and (min-width: 450px) {
+    @media screen and (min-width: 573px) {
     align-items: first baseline;
   }
 }
@@ -39,7 +39,7 @@
     font-size: 100px;
   }
 
-  @media screen and (max-width: 449px) {
+  @media screen and (max-width: 572px) {
     font-size: 60px;
     padding-top: 0
   }
@@ -47,7 +47,7 @@
 
 #last-name {
 
-  @media screen and (max-width: 449px) {
+  @media screen and (max-width: 572px) {
     padding: 0;
   }
 }
@@ -60,7 +60,7 @@
     font-size: 17px
   }
 
-  @media screen and (max-width: 449px) {
+  @media screen and (max-width: 572px) {
     font-size: 18px;
     margin: 0;
     padding: 0
@@ -92,12 +92,9 @@
 
 .profile-text-container {
   flex: 1;
-}
+  padding: 0 30px 0 30px;
 
-.profile-text-container {
-padding: 0 30px 0 30px;
-
-@media screen and (max-width: 449px) {
+  @media screen and (max-width: 449px) {
     padding: 0
   }
 }
@@ -134,6 +131,10 @@ padding: 0 30px 0 30px;
 
 .overlay-container {
   position: relative;
+
+  @media screen and (max-width: 1099px) {
+    padding: 20px 0;
+  }
 }
 
 .profileImage:hover{

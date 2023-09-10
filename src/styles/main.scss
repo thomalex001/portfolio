@@ -61,10 +61,6 @@ img {
   }
 }
 
-a {
-  color: rgb(221, 203, 203);
-}
-
-a:visited {
-  color: rgb(221, 203, 203);
+a, a:visited {
+  color: rgb(221, 203, 203) !important;
 }

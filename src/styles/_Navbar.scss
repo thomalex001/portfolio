@@ -14,14 +14,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 25px 0; 
   z-index: 3;
-  cursor: pointer;
-  height:60px;
-
-  @media screen and (max-width: 449px) {
-    // height: 50px
-  }
+  height: 60px;
 }
 
 .menu {
@@ -37,6 +31,8 @@
     margin: 0 1rem;
     overflow: hidden;
     transition: all .2s ease-in-out;
+    cursor: pointer;
+    line-height: 60px;
 
     &:hover {
       transform: scale(1.1);
@@ -119,8 +115,18 @@
     justify-content: center;
     align-items: center;
     padding: 0;
+  }
 
-    li:hover {
+  .menu li {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: rgb(221, 203, 203);
+    background-color: rgb(41, 61, 74);
+    font-size: 20px;
+    line-height: normal;
+
+    &:hover {
       animation: none
     }
   }
@@ -137,18 +143,5 @@
     padding: 0.5em;
     transition: .4s ease-in-out;
   }
-  .menu > li {
-    display: flex;
-    justify-content: center;
-    margin: 2px;
-    padding: 0.5em 0;
-    width: 100%;
-    color: rgb(221, 203, 203);
-    background-color: rgb(41, 61, 74);
-    font-size: 20px;
-  }
-  // .menu > li:not(:last-child) {
-  //   border-bottom: 1px solid #444;
-  // }
 }
 
