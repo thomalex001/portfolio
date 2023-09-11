@@ -37,7 +37,7 @@ const Projects = forwardRef((props, ref) => {
               had only two weeks of Javascript/CSS knowledge and I designed the
               entire game by myself. <br></br>Creating a fully working game in such a
               short amount of time was very rewarding, adding designs and sounds
-              was really fun too. Key learning and takeways were to practice JavaScript
+              was really fun too. Key learning and takeaways were to practice JavaScript
               in the DOM and the importance of planning. Mario World Invaders can be played 
               by clicking on the image above (desktop version only at the moment!).
             </p>
