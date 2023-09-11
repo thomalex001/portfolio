@@ -53,7 +53,7 @@ const Profile = () => {
           <p>
             Hi there 👋 I'm Alex! I have been fascinated with the Tech industry
             for many years and recently discovered a love for coding. I
-            litteraly caught the bug (no pun intended) whilst self-learning
+            literally caught the bug (no pun intended) whilst self-learning
             which led me to seek a career change in this field.
           </p>
           <p>
