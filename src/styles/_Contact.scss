@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   background-color: rgb(39, 44, 49);
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 .contact-inner-container {
@@ -22,6 +22,10 @@
   font-size: 20px;
   color: rgb(221, 203, 203);
     
+  @media screen and (max-width: 1099px) {
+    font-size: 18px
+  }
+
   @media screen and (max-width: 449px) {
     font-size: 16px
   }
@@ -40,21 +44,48 @@
   }
 }
 
+i.icon {
+  font-size: 24px;
+  height: 20px;
+
+  @media screen and (max-width: 1099px) {
+    height: 19px;
+    font-size: 22px;
+    margin-right: 10px
+  }
+  @media screen and (max-width: 449px) {
+    font-size: 20px
+  }
+}
+
 #copy-button {
-  width: 10px;
   left: 101%;
   padding-bottom: 10px;
   filter: brightness(75%);
   color: rgb(255, 255, 255);
   font-size: 13px;
   position: absolute;
+  width: 20px;
+
+  img {
+    width: 20px;
+  }
 
   @media screen and (max-width: 1099px) {
     left: 88%;
+    font-size: 11px;
+    
+    img {
+      width: 19px
+    }
   }
 
   @media screen and (max-width: 449px) {
-    font-size: 12px
+    font-size: 10px; 
+    
+    img {
+      width: 17px
+    }
   }
 }
 

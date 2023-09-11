@@ -1,22 +1,22 @@
-import Image1 from '../../assets/turntable.jpg';
-import Image2 from '../../assets/jazz-cafe.png';
-import Image3 from '../../assets/travel.png';
+import Image1 from '../../assets/turntable.png';
+import Image2 from '../../assets/travel.png';
+import Image3 from '../../assets/jazz-cafe.png';
 import Image4 from '../../assets/bread.jpg';
 import Image5 from '../../assets/bike.png';
 
 export const SliderData = [
   {
-    image: 'Image1',
+    image: Image1,
     alt: 'turntable'
   },
   {
     image: Image2,
-    alt: 'jazz-cafe'
+    alt: 'travel'
   },
 
   {
     image: Image3,
-    alt: 'travel'
+    alt: 'live-music'
   },
 
   {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 
-const navbarHeight = 71;
+const navbarHeight = 60;
 
 const Navbar = ({
   aboutSection,
@@ -16,6 +16,7 @@ const Navbar = ({
   };
 
   const scrollDownToAbout = () => {
+    setIsNavbarOpen(false);
     if (aboutSection && aboutSection.current) {
       window.scrollTo({
         top: aboutSection.current.offsetTop - navbarHeight,
@@ -25,6 +26,7 @@ const Navbar = ({
   };
 
   const scrollDownToSkills = () => {
+    setIsNavbarOpen(false);
     if (skillsSection && skillsSection.current) {
       window.scrollTo({
         top: skillsSection.current.offsetTop - navbarHeight,
@@ -33,6 +35,7 @@ const Navbar = ({
     }
   };
   const scrollDownToExperience = () => {
+    setIsNavbarOpen(false);
     if (experienceSection && experienceSection.current) {
       window.scrollTo({
         top: experienceSection.current.offsetTop - navbarHeight,
@@ -41,6 +44,7 @@ const Navbar = ({
     }
   };
   const scrollDownToProjects = () => {
+    setIsNavbarOpen(false);
     if (projectsSection && projectsSection.current) {
       window.scrollTo({
         top: projectsSection.current.offsetTop - navbarHeight,
@@ -49,6 +53,7 @@ const Navbar = ({
     }
   };
   const scrollDownToContact = () => {
+    setIsNavbarOpen(false);
     if (contactSection && contactSection.current) {
       window.scrollTo({
         top: contactSection.current.offsetTop - navbarHeight,
@@ -57,11 +62,12 @@ const Navbar = ({
     }
   };
   return (
-    <header className={`navbar ${isNavbarOpen ? 'expanded' : ''}`}>
+    <header className='navbar'>
       <section className='top-nav'>
         <input
           id='menu-toggle'
           type='checkbox'
+          checked={isNavbarOpen}
         />
         <label
           className='menu-button-container'

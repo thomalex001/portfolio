@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   padding-bottom: 20px;
+  overflow: hidden;
 
   @media screen and (max-width: 449px) {
     padding-top: 0;
@@ -13,7 +14,7 @@
   display: flex;
   align-items: baseline;
 
-  @media screen and (max-width: 449px) {
+  @media screen and (max-width: 572px) {
     flex-direction: column;
     align-items: center;
   }
@@ -24,48 +25,48 @@
   flex-direction: column;
   align-items: center;
 
-    @media screen and (min-width: 450px) {
+    @media screen and (min-width: 573px) {
     align-items: first baseline;
   }
 }
 
 .fullname-container h1 {
-font-size: 190px;
-margin: 0;
-transition: all 1s linear;
+  font-size: 190px;
+  margin: 0;
+  transition: all 1s linear;
 
   @media screen and (max-width: 1099px) {
     font-size: 100px;
   }
 
-  @media screen and (max-width: 449px) {
+  @media screen and (max-width: 572px) {
     font-size: 60px;
     padding-top: 0
   }
-
-  
 }
 
 #last-name {
-    @media screen and (max-width: 449px) {
-      padding: 0
+
+  @media screen and (max-width: 572px) {
+    padding: 0;
   }
 }
 
 .fullname-container h2 {
-  font-size: 40px;
+  font-size: 35px;
   padding-left: 20px;
 
-    @media screen and (max-width: 1099px) {
+  @media screen and (max-width: 1099px) {
     font-size: 17px
   }
 
-  @media screen and (max-width: 449px) {
+  @media screen and (max-width: 572px) {
     font-size: 18px;
     margin: 0;
     padding: 0
   }
 }
+
 .image-container {
   flex: 1;
   padding: 0 30px 0 30px;
@@ -91,10 +92,8 @@ transition: all 1s linear;
 
 .profile-text-container {
   flex: 1;
-}
+  padding: 0 30px 0 30px;
 
-.profile-text-container {
-padding: 0 30px 0 30px;
   @media screen and (max-width: 449px) {
     padding: 0
   }
@@ -104,20 +103,14 @@ padding: 0 30px 0 30px;
   font-size: 30px;
   text-align: center;
 
- @media screen and (max-width: 449px) {
+  @media screen and (max-width: 449px) {
     font-size: 25px;
   }
 }
 
 .profile-text-container p {
-    font-size: 20px;
-    text-align: justify;
-
-@media screen and (max-width: 449px) {
-    font-size: 20px;
-    padding: 10px 
-  }
-
+  font-size: 20px;
+  text-align: justify;
 }
 
 .profileImage {
@@ -126,19 +119,23 @@ padding: 0 30px 0 30px;
   z-index: 0;
 
   @media screen and (max-width: 449px) {
-  width: 100%
+    width: 100%
   }
 }
 
 .overlay-container {
   position: relative;
+
+  @media screen and (max-width: 1099px) {
+    padding: 20px 0;
+  }
 }
 
 .profileImage:hover{
   filter: blur(5px) brightness(50%);
 
-     @media screen and (max-width: 1099px) {
-  filter: none
+  @media screen and (max-width: 1099px) {
+    filter: none
   }
 }
 
@@ -152,8 +149,9 @@ padding: 0 30px 0 30px;
   transition: opacity 0.3s ease-in-out;
   cursor: pointer;
   z-index: 1;
-       @media screen and (max-width: 1099px) {
-  display: none
+  
+  @media screen and (max-width: 1099px) {
+    display: none
   }
 }
 
@@ -171,8 +169,8 @@ padding: 0 30px 0 30px;
   transition: opacity 0.3s ease-in-out;
   cursor: pointer;
   z-index: 1;
-         @media screen and (max-width: 1099px) {
-  display: none
+  @media screen and (max-width: 1099px) {
+    display: none
   }
 }
 
@@ -191,8 +189,9 @@ padding: 0 30px 0 30px;
 
 .overlay-container:hover .profileImage {
   filter: blur(5px) brightness(50%);
-         @media screen and (max-width: 1099px) {
-  filter: brightness(80%);
+  
+  @media screen and (max-width: 1099px) {
+    filter: brightness(80%);
   }
 }
 
