@@ -30,12 +30,12 @@
   li {
     margin: 0 1rem;
     overflow: hidden;
-    transition: all .2s ease-in-out;
+    transition: all .1s ease-in-out;
     cursor: pointer;
     line-height: 60px;
 
     &:hover {
-      transform: scale(1.1);
+      transform: scale(1.03);
     }
   }
 }

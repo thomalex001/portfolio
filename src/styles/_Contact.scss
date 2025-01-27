@@ -35,9 +35,11 @@
   display: flex; 
   align-items: center;
   position: relative;
+  transform: 0.1s ease-in;
+  
 }
 .email-contact-box:hover {
-  transform: scale(1.1);
+  transform: scale(1.04);
 
   @media screen and (max-width: 1099px) {
     transform: none
@@ -97,17 +99,18 @@ i.icon {
   display: flex; 
   cursor: pointer;
   align-items: center;
+  transform: 0.1s ease-in;
 }
 
 .linked-in-contact-box{
-
+  transform: 0.1s ease-in;
   @media screen and (max-width: 1099px) {
       padding: 5px 0
     }
 }
 
 .linked-in-contact-box:hover, .github-contact-box:hover {
-transform: scale(1.1);
+transform: scale(1.04);
 
   @media screen and (max-width: 1099px) {
     transform: none

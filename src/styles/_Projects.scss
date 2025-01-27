@@ -17,7 +17,7 @@
   grid-auto-rows: minmax(100px, auto);
   justify-items: center;
   
-  @media screen and (max-width: 449px) {
+  @media screen and (max-width: 900px) {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,7 +35,8 @@ text-decoration: underline;}
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%
+  width: 100%;
+  border: grey 2px solid;
 }
 
 #project1-box {
@@ -56,7 +57,15 @@ text-decoration: underline;}
 
 .project img {
   width: 100%;
+  height: 390px;
   border-radius: 2%;
   background-size: cover;
   box-shadow: 2px 2px 5px black;
+}
+
+.new-project {
+  border: #d838ce 2px solid;
+ legend{
+  color: #d838ce;
+ }
 }

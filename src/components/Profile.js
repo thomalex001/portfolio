@@ -57,7 +57,7 @@ const Profile = () => {
             which led me to seek a career change in this field.
           </p>
           <p>
-            And so, in late 2022, I enrolled in a Software Engineering Immersive
+            And so, in 2023, I enrolled in a Software Engineering Immersive
             course to dive deeper into all aspects of Full-Stack Engineering. My
             background is in hospitality with over 15 years experience where I
             had the chance to work with passionate and fun people in an
