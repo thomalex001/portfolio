@@ -4,16 +4,17 @@
 @import '_Experience';
 @import '_AboutMe';
 @import '_ImageSlider';
-@import '_Contact';
+@import '_Footer';
 @import '_Skills';
 @import '_ScrollToTop';
+@import 'variables';
 
 html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: rgb(41, 61, 74);
-  color: rgb(221, 203, 203);
+  background-color: $color-lightgreen;
+  color: $color-darkgreen;
   margin: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
@@ -53,7 +54,8 @@ img {
   padding: 20px 20px 8px;
   margin-bottom: 30px;
   text-align: center;
-  border-bottom: 1px solid rgb(221, 203, 203);
+  border-bottom: 1px solid $color-darkgreen;
+  font-family: "Major Mono Display", serif;
 
   @media screen and (max-width: 1099px) {
     padding: 10px 20px;
@@ -61,6 +63,17 @@ img {
   }
 }
 
+h3 {
+font-family:  "Roboto", serif;
+}
+
+.about-me-container h2 {
+  font-family:  "Roboto", serif;
+  font-weight: 500;
+}
+
 a, a:visited {
-  color: rgb(221, 203, 203) !important;
+  color: $color-darkgreen !important;
+  font-family:  "Roboto", serif;
+  font-weight: 500;
 }

@@ -53,16 +53,16 @@ const Profile = () => {
           <p>
             Hi there 👋 I'm Alex! I have been fascinated with the Tech industry
             for many years and recently discovered a love for coding. I
-            litteraly caught the bug (no pun intended) whilst self-learning
+            literally caught the bug (no pun intended) whilst self-learning
             which led me to seek a career change in this field.
           </p>
           <p>
-            And so, in late 2022, I enrolled in a Software Engineering Immersive
+            And so, in 2023, I enrolled in a Software Engineering Immersive
             course to dive deeper into all aspects of Full-Stack Engineering. My
             background is in hospitality with over 15 years experience where I
             had the chance to work with passionate and fun people in an
             environment that is as challenging as it is rewarding. I love
-            working within team, helping others and getting out of my comfort
+            working within a team, helping others and getting out of my comfort
             zone when the opportunity comes along!
           </p>
         </div>

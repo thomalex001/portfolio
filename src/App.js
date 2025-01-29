@@ -3,7 +3,7 @@ import Profile from './components/Profile';
 import Projects from './components/Projects'
 import Experience from './components/Experience';
 import AboutMe from './components/AboutMe';
-import Contact from './components/Contact';
+import Footer from './components/Footer';
 import Skills from './components/Skills';
 import { useRef } from 'react';
 
@@ -29,7 +29,7 @@ function App() {
         <Projects ref={projectsSection} />
         <Experience ref={experienceSection} />
         <AboutMe ref={aboutSection} />
-        <Contact ref={contactSection} />
+        <Footer ref={contactSection} />
       </main>
     </>
   );

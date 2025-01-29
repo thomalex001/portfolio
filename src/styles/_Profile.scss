@@ -31,7 +31,7 @@
 }
 
 .fullname-container h1 {
-  font-size: 190px;
+  font-size: 100px;
   margin: 0;
   transition: all 1s linear;
 
@@ -41,6 +41,10 @@
 
   @media screen and (max-width: 572px) {
     font-size: 60px;
+    padding-top: 0
+  }
+  @media screen and (max-width: 370px) {
+    font-size: 40px;
     padding-top: 0
   }
 }
@@ -53,7 +57,7 @@
 }
 
 .fullname-container h2 {
-  font-size: 35px;
+  font-size: 25px;
   padding-left: 20px;
 
   @media screen and (max-width: 1099px) {
@@ -115,6 +119,7 @@
 
 .profileImage {
   border-radius: 100%;
+  opacity: 0.8;
   filter: brightness(80%);
   z-index: 0;
 

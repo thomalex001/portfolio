@@ -73,9 +73,9 @@ const Experience = forwardRef((props, ref) => {
           </div>
         </div>
         <p>
-          La Fromagerie has three locations: Highbury (first opened 1992), it's
+          La Fromagerie has three locations: Highbury (first opened 1992), its
           flagship Marylebone (opened 2002) and more recently Bloomsbury. Each
-          shop has it's signature walk-in cheese room, a café serving hot food
+          shop has its signature walk-in cheese room, a café serving hot food
           with table service as well as regular Supper Evenings/Events
           throughout the year. The Wholesale Department has a dedicated team of
           cheesemongers based in a warehouse in Highbury, where the affinage
