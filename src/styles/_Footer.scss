@@ -1,0 +1,56 @@
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(151, 158, 154);
+  padding: 20px 0;
+  margin-top: 30px;
+}
+
+.contact-inner-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+.email-contact-box {
+  display: flex; 
+  align-items: center;
+  position: relative;
+  transform: 0.1s ease-in;
+  
+}
+.email-contact-box:hover {
+  transform: scale(1.04);
+
+  @media screen and (max-width: 1099px) {
+    transform: none
+  }
+}
+
+i.icon {
+  font-size: 28px;
+
+  @media screen and (max-width: 1099px) {
+    font-size: 25px;
+  }
+}
+
+.linked-in-contact-box, .github-contact-box {
+  display: flex; 
+  cursor: pointer;
+  align-items: center;
+  transform: 0.1s ease-in;
+}
+
+.linked-in-contact-box{
+  transform: 0.1s ease-in;
+}
+
+.linked-in-contact-box:hover, .github-contact-box:hover {
+transform: scale(1.04);
+
+  @media screen and (max-width: 1099px) {
+    transform: none
+  }
+}

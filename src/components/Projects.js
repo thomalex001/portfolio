@@ -38,7 +38,7 @@ const Projects = forwardRef((props, ref) => {
             Artist or band thanks to Discogs.com API. Once you have chosen your
             Artist, you will be directed to the Artist's page which will show
             all the albums available on the database. But wait, that's not all!
-            Should there be more than 5 albums for this Artist, a Quiz will be
+            Should there be 5 or more albums for this Artist, a Quiz will be
             available for you to test your knowledge! Good luck!
             <br></br>Analyzing each endpoints to get the most information was
             the key takeaway for me on this project. The main challenge was to

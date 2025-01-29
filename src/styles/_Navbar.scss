@@ -1,9 +1,11 @@
+@import 'variables';
+
 .navbar {
   position: sticky;
   top: 0;
   z-index: 3;
   border-bottom: 1px solid rgb(221, 203, 203);
-  background-color: rgb(41, 61, 74);
+  background-color: $color-lightgreen;
 
   @media screen and (max-width: 1099px) {
     border-bottom: none;
@@ -59,7 +61,7 @@
 .menu-button::before,
 .menu-button::after {
   display: block;
-  background-color: rgb(221, 203, 203);
+  background-color: $color-darkgreen;
   position: absolute;
   height: 4px;
   width: 30px;
@@ -121,8 +123,8 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    color: rgb(221, 203, 203);
-    background-color: rgb(41, 61, 74);
+    color: $color-darkgreen;
+    background-color: $color-lightgreen;
     font-size: 20px;
     line-height: normal;
 
