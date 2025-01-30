@@ -23,7 +23,7 @@ const Projects = forwardRef((props, ref) => {
             rel='noreferrer'>
             <h3>MusiQ All - Website</h3>
           </a>
-          <h3>Technologies Used : HTML, SASS, Javascript</h3>
+          <h3>Technologies Used : HTML, SASS, Javascript, Postman</h3>
           <a
             href='https://musiq-all.co.uk'
             target='_blank'

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import { Icon } from 'semantic-ui-react';
 
 const navbarHeight = 60;
 
@@ -11,8 +12,12 @@ const Navbar = ({
   contactSection
 }) => {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
+  const [isActive, setIsActive] = useState(false);
   const toggleNavbar = () => {
     setIsNavbarOpen(!isNavbarOpen);
+  };
+  const toggleContact = () => {
+    setIsActive(!isActive);
   };
 
   const scrollDownToAbout = () => {
@@ -52,15 +57,7 @@ const Navbar = ({
       });
     }
   };
-  const scrollDownToContact = () => {
-    setIsNavbarOpen(false);
-    if (contactSection && contactSection.current) {
-      window.scrollTo({
-        top: contactSection.current.offsetTop - navbarHeight,
-        behavior: 'smooth'
-      });
-    }
-  };
+
   return (
     <header className='navbar'>
       <section className='top-nav'>
@@ -84,7 +81,40 @@ const Navbar = ({
           <li onClick={scrollDownToProjects}>Projects</li>
           <li onClick={scrollDownToExperience}>Experience</li>
           <li onClick={scrollDownToAbout}>More About Me</li>
-          <li onClick={scrollDownToContact}>Contact</li>
+          <li onClick={toggleContact}>Contact</li>
+          <div
+            className={
+              isActive
+                ? 'contact-toggle is-active'
+                : 'contact-toggle'
+            }>
+            <div className='email-contact-box'>
+              <a
+                href='mailto:thomasalex06@gmail.com'
+                alt='alex-thomas-email'>
+                {' '}
+                <Icon name='mail' />
+              </a>
+            </div>
+            <div className='linked-in-contact-box'>
+              <a
+                href='https://www.linkedin.com/in/alex-thomas-london/'
+                alt='alex-thomas-linked-in'
+                target='blank'
+                rel='noreferrer'>
+                <Icon name='linkedin' />
+              </a>
+            </div>
+            <div className='github-contact-box'>
+              <a
+                href='https://github.com/thomalex001/'
+                alt='alex-thomas-linked-in'
+                target='blank'
+                rel='noreferrer'>
+                <Icon name='github square' />
+              </a>
+            </div>
+          </div>
         </ul>
       </section>
     </header>
