@@ -2,9 +2,9 @@
 
 .navbar {
   position: sticky;
+  padding-top: 10px;
   top: 0;
   z-index: 3;
-  border-bottom: 1px solid rgb(221, 203, 203);
   background-color: $color-lightgreen;
 
   @media screen and (max-width: 1099px) {
@@ -18,6 +18,7 @@
   justify-content: center;
   z-index: 3;
   height: 60px;
+  transition: .4s ease-in-out;
 }
 
 .menu {
@@ -26,8 +27,13 @@
   align-items: center;
   justify-content: space-around;
   list-style-type: none;
-  font-family: 'Sanchez', serif;
+  font-family: "Orbit", serif;
   font-size: 20px;
+
+  &:last-child {
+    padding-bottom: 20px;
+  }
+
 
   li {
     margin: 0 1rem;
@@ -36,11 +42,116 @@
     cursor: pointer;
     line-height: 60px;
 
+
     &:hover {
-      transform: scale(1.03);
+      color: rgb(112, 62, 8)
     }
+
+
   }
 }
+
+// CONTACT TOGGLE
+// CONTACT TOGGLE
+.contact-toggle {
+  display: flex;
+  transition: all .4s ease;
+  position: absolute;
+  visibility: hidden;
+  padding: 5px 40px 5px 44px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: $color-lightgreen;
+
+  @media screen and (min-width: 1099px) {
+    right: -300px;
+    margin-top: -20px;
+  }
+
+  @media screen and (max-width: 1099px) {
+    padding: 5px 45px 5px 45px;
+    opacity: 0;
+    top: 90%;
+    
+    i.icon {
+      margin: 0;
+    }
+  }
+
+  &.is-active {
+    opacity: 1;
+    visibility: visible;
+    transition: all .4s ease;
+
+    @media screen and (min-width: 1099px) {
+      margin-top: -20px;
+      right: -2%;;
+    }
+
+    @media screen and (max-width: 1099px) {
+      opacity: 1;
+      top: 93%;
+      padding-bottom: 15px;
+
+      i.icon {
+        margin: 0;
+      }
+  }
+    
+  }
+}
+.contact-toggle div:nth-child(2) {
+  margin: 0 20px;
+  }
+.contact-toggle div:nth-child(3) {
+  // padding-right: 2px;
+  }
+
+
+.email-contact-box {
+  display: flex; 
+  align-items: center;
+  position: relative;
+  transform: 0.1s ease-in;
+  
+}
+.email-contact-box:hover {
+  transform: scale(1.04);
+
+  @media screen and (max-width: 1099px) {
+    transform: none
+  }
+}
+
+i.icon {
+  font-size: 28px;
+
+  @media screen and (max-width: 1099px) {
+    font-size: 25px;
+  }
+}
+
+.linked-in-contact-box, .github-contact-box {
+  display: flex; 
+  cursor: pointer;
+  align-items: center;
+  transform: 0.1s ease-in;
+}
+
+.linked-in-contact-box{
+  transform: 0.1s ease-in;
+}
+
+.linked-in-contact-box:hover, .github-contact-box:hover {
+transform: scale(1.04);
+
+  @media screen and (max-width: 1099px) {
+    transform: none
+  }
+}
+// CONTACT TOGGLE ENDS
+// CONTACT TOGGLE ENDS
+
 
 .menu-button-container {
   display: none;
@@ -117,6 +228,7 @@
     justify-content: center;
     align-items: center;
     padding: 0;
+    background-color: $color-lightgreen;
   }
 
   .menu li {

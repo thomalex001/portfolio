@@ -16,14 +16,14 @@
   border-radius: 50%;
   height: 50px;
   width: 50px;
-  color: #fff;
+  color: $color-darkgreen;
   cursor: pointer;
   animation: mover 1s infinite  alternate;
 }
 .icon-style:hover{
   animation: none;
-  color: #ffffff;
-  border: 2px solid #ffffff;
+  color: $color-darkgreen;
+  border: 2px solid $color-darkgreen;
 }
 @keyframes movebtn {
     0% { transform: translateY(0); }
