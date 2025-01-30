@@ -81,7 +81,7 @@ const Navbar = ({
           <li onClick={scrollDownToProjects}>Projects</li>
           <li onClick={scrollDownToExperience}>Experience</li>
           <li onClick={scrollDownToAbout}>More About Me</li>
-          <li onClick={toggleContact}>Contact</li>
+          <li onClick={toggleContact}>Contact
           <div
             className={
               isActive
@@ -115,6 +115,7 @@ const Navbar = ({
               </a>
             </div>
           </div>
+          </li>
         </ul>
       </section>
     </header>

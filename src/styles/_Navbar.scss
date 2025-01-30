@@ -29,12 +29,14 @@
   font-family: "Orbit", serif;
   font-size: 20px;
 
+
   li {
     margin: 0 1rem;
     overflow: hidden;
     transition: all .1s ease-in-out;
     cursor: pointer;
     line-height: 60px;
+
 
     &:hover {
       color: rgb(112, 62, 8)
@@ -46,36 +48,55 @@
 // CONTACT TOGGLE
 .contact-toggle {
   display: flex;
-  // opacity: 0;
-  transition: all .4s ease-in-out;
-  margin-top: 75px;
+  transition: all .4s ease;
+
   position: absolute;
   visibility: hidden;
-  // top: -35px;
-  right: -300px;
+ 
   padding: 5px 40px;
-  border-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
   background-color: $color-lightgreen;
-  z-index: 0;
 
-  i.icon {
-    padding-top: 10px;
+  @media screen and (min-width: 1099px) {
+    right: -300px;
+    margin-top: -20px;
   }
+
+  @media screen and (max-width: 1099px) {
+    opacity: 0;
+    top: 95%;
+  }
+
   &.is-active {
     opacity: 1;
     visibility: visible;
-    margin-top: 80px;
-    transition: all .4s ease-in-out;
-    // top: -35px;
-    right: -15px;
-    z-index: 0;
-    // background-color: $color-lightgreen;
+    
+    transition: all .4s ease;
+
+    @media screen and (min-width: 1099px) {
+      margin-top: -20px;
+      right: -2%;;
+    }
+
+    @media screen and (max-width: 1099px) {
+      opacity: 1;
+      top: 99%;
+      padding-top: 10px;
+      padding-bottom: 15px;
+
+    // i.icon {
+    //   padding-top: 10px;
+    //   padding-bottom: 10px;
+    // }
+  }
     
   }
 }
 .contact-toggle div:nth-child(2) {
   margin: 0 20px;
 }
+
 
 
 .email-contact-box {
