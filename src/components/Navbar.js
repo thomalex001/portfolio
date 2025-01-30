@@ -15,6 +15,8 @@ const Navbar = ({
   const [isActive, setIsActive] = useState(false);
   const toggleNavbar = () => {
     setIsNavbarOpen(!isNavbarOpen);
+    setIsActive(false);
+
   };
   const toggleContact = () => {
     setIsActive(!isActive);
@@ -22,6 +24,7 @@ const Navbar = ({
 
   const scrollDownToAbout = () => {
     setIsNavbarOpen(false);
+    setIsActive(false);
     if (aboutSection && aboutSection.current) {
       window.scrollTo({
         top: aboutSection.current.offsetTop - navbarHeight,
@@ -32,6 +35,7 @@ const Navbar = ({
 
   const scrollDownToSkills = () => {
     setIsNavbarOpen(false);
+    setIsActive(false);
     if (skillsSection && skillsSection.current) {
       window.scrollTo({
         top: skillsSection.current.offsetTop - navbarHeight,
@@ -41,6 +45,7 @@ const Navbar = ({
   };
   const scrollDownToExperience = () => {
     setIsNavbarOpen(false);
+    setIsActive(false);
     if (experienceSection && experienceSection.current) {
       window.scrollTo({
         top: experienceSection.current.offsetTop - navbarHeight,
@@ -50,6 +55,7 @@ const Navbar = ({
   };
   const scrollDownToProjects = () => {
     setIsNavbarOpen(false);
+    setIsActive(false);
     if (projectsSection && projectsSection.current) {
       window.scrollTo({
         top: projectsSection.current.offsetTop - navbarHeight,
