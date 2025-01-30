@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import { Icon } from 'semantic-ui-react';
+import { throttle } from 'lodash';
 
 const navbarHeight = 60;
 
@@ -16,16 +17,17 @@ const Navbar = ({
 
   //*********HIDE CONTACT ELEMENT WHEN RESIZING PAGE OR SCROLLING*********//
   useEffect(() => {
-    const hideContact = () => {
+    const hideContact = throttle(() => {
       setIsContactVisible(false);
       setIsNavbarOpen(false);
-    };
+    }, 1000);
 
     window.addEventListener('resize', hideContact);
     window.addEventListener('scroll', hideContact);
 
     return () => {
       window.removeEventListener('resize', hideContact);
+      window.removeEventListener('scroll', hideContact);
     };
   }, []);
 
