@@ -216,11 +216,12 @@ transform: scale(1.04);
 
   .menu-button-container {
     display: flex;
+    padding: 0 16px 7px
   }
 
   .menu {
     position: absolute;
-    top: 0;
+    top: 2px;
     margin-top: 50px;
     left: 0;
     flex-direction: column;
