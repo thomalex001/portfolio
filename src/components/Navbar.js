@@ -10,7 +10,6 @@ const Navbar = ({
   skillsSection,
   experienceSection,
   projectsSection,
-  contactSection
 }) => {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
   const [isContactVisible, setIsContactVisible] = useState(false);
