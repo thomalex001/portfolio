@@ -72,7 +72,7 @@
     padding: 5px 45px 5px 45px;
     opacity: 0;
     top: 90%;
-    
+
     i.icon {
       margin: 0;
     }
@@ -85,7 +85,7 @@
 
     @media screen and (min-width: 1099px) {
       margin-top: -20px;
-      right: -2%;;
+      right: -2%;
     }
 
     @media screen and (max-width: 1099px) {
@@ -216,11 +216,12 @@ transform: scale(1.04);
 
   .menu-button-container {
     display: flex;
+    padding: 0 16px 7px
   }
 
   .menu {
     position: absolute;
-    top: 0;
+    top: 2px;
     margin-top: 50px;
     left: 0;
     flex-direction: column;
