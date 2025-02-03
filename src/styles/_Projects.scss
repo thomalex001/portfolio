@@ -7,7 +7,8 @@
 
 .project-legend {
   font-size:25px;
-  padding: 10px 10px
+  padding: 10px 
+
 }
 
 .project-box {
@@ -17,6 +18,14 @@
   grid-auto-rows: minmax(100px, auto);
   justify-items: center;
   
+  h2 {
+    font-family:  "Roboto", serif;
+    font-size: 20px;
+    }
+  h3 {
+    margin: 5px 0 20px;
+  }
+
   @media screen and (max-width: 900px) {
     display: flex;
     flex-direction: column;

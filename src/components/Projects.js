@@ -2,7 +2,8 @@ import Project4img from '../assets/project4.png'
 import Project3img from '../assets/project3.png'
 import Project2img from '../assets/project2.png'
 import Project1img from '../assets/project1.png'
-import MusiqAll from '../assets/musiq-all.png';
+import MusiqAll from '../assets/project5.png'
+
 
 
 import { forwardRef } from 'react';
@@ -21,7 +22,7 @@ const Projects = forwardRef((props, ref) => {
             href='https://musiq-all.co.uk'
             target='_blank'
             rel='noreferrer'>
-            <h3>MusiQ All - Website</h3>
+            <h2>Musiq-All - Website</h2>
           </a>
           <h3>Technologies Used : HTML, SASS, Javascript, Postman</h3>
           <a
@@ -33,7 +34,7 @@ const Projects = forwardRef((props, ref) => {
               alt='project1'></img>
           </a>
           <p>
-            Why not start the year with a new Project! MusiQ-All is my new
+            Why not start the year with a new Project! Musiq-All is my new
             creation for 2025! This website allows you to search for any musical
             Artist or band thanks to Discogs.com API. Once you have chosen your
             Artist, you will be directed to the Artist's page which will show
@@ -52,7 +53,7 @@ const Projects = forwardRef((props, ref) => {
             href='https://github.com/thomalex001/ga-project-1'
             target='_blank'
             rel='noreferrer'>
-            <h3>Mario Space Invaders Game (Github)</h3>
+            <h2>Mario Space Invaders Game (Github)</h2>
           </a>
           <h3>Technologies Used : HTML, CSS, Javascript</h3>
           <a
@@ -81,7 +82,7 @@ const Projects = forwardRef((props, ref) => {
             href='https://github.com/thomalex001/ga-project-2'
             target='_blank'
             rel='noreferrer'>
-            <h3>Rick & Morty API (Github)</h3>
+            <h2>Rick & Morty API (Github)</h2>
           </a>
           <h3>Technologies Used : JS/React, SASS, Mui, Postman</h3>
           <a
@@ -111,7 +112,7 @@ const Projects = forwardRef((props, ref) => {
             href='https://github.com/thomalex001/ga_project_3_client'
             target='_blank'
             rel='noreferrer'>
-            <h3>The Diary Library App (Github)</h3>
+            <h2>The Diary Library App (Github)</h2>
           </a>
           <h3>Technologies Used : Express/Node, JS/React, SASS</h3>
           <a
@@ -143,7 +144,7 @@ const Projects = forwardRef((props, ref) => {
             href='http://github.com/thomalex001/ga-project-4-client'
             target='_blank'
             rel='noreferrer'>
-            <h3>Vintage Cutsom Cycles App (Github)</h3>
+            <h2>Vintage Cutsom Cycles App (Github)</h2>
           </a>
           <h3>Technologies Used : Python/Django, JS/React, SASS</h3>
           <a

@@ -29,27 +29,29 @@ const Profile = () => {
             <a
               href='https://github.com/thomalex001'
               target='_blank'
-              rel='noreferrer'>
+              rel='noreferrer'
+              aria-label='link to alex thomas github page'>
               <img
                 className='overlay-git-icon'
                 src={gitIcon}
-                alt='git-icon'
+                alt='git icon'
               />
             </a>
             <a
               href='https://www.linkedin.com/in/alex-thomas-london/'
               target='_blank'
-              rel='noreferrer'>
+              rel='noreferrer'
+              aria-label='link to alex thomas linked in'>
               <img
                 className='overlay-linkedin-icon'
                 src={linkedInIcon}
-                alt='linked-in-icon'
+                alt='linkedin icon'
               />
             </a>
           </div>
         </div>
         <div className='profile-text-container'>
-          <h3>A little bit about me...</h3>
+          <h1>A little bit about me...</h1>
           <p>
             Hi there 👋 I'm Alex! I have been fascinated with the Tech industry
             for many years and recently discovered a love for coding. I
