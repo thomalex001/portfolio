@@ -24,7 +24,7 @@ const Projects = forwardRef((props, ref) => {
             rel='noreferrer'>
             <h2>Musiq-All - Website</h2>
           </a>
-          <h3>Technologies Used : HTML, SASS, Javascript, Postman</h3>
+          <h3>Technologies Used: React/JS, SASS, Axios</h3>
           <a
             href='https://musiq-all.co.uk'
             target='_blank'
@@ -43,8 +43,8 @@ const Projects = forwardRef((props, ref) => {
             available for you to test your knowledge! Good luck!
             <br></br>Analyzing each endpoints to get the most information was
             the key takeaway for me on this project. The main challenge was to
-            work on the Quiz functionalities. I wanted to improve my Styling,
-            Responsiveness and Accessibility skills on this project too, which I did!
+            work on the quiz functionalities. I wanted to improve my styling,
+            responsiveness and accessibility skills as well, which I did!
           </p>
         </fieldset>
         <fieldset className='project'>
@@ -55,7 +55,7 @@ const Projects = forwardRef((props, ref) => {
             rel='noreferrer'>
             <h2>Mario Space Invaders Game (Github)</h2>
           </a>
-          <h3>Technologies Used : HTML, CSS, Javascript</h3>
+          <h3>Technologies Used: HTML, CSS, Javascript</h3>
           <a
             href='https://thomalex001.github.io/ga-project-1/'
             target='_blank'
@@ -84,7 +84,7 @@ const Projects = forwardRef((props, ref) => {
             rel='noreferrer'>
             <h2>Rick & Morty API (Github)</h2>
           </a>
-          <h3>Technologies Used : JS/React, SASS, Mui, Postman</h3>
+          <h3>Technologies Used: JS/React, SASS, Mui, Postman</h3>
           <a
             href='https://rick-morty-api-project.netlify.app/'
             target='_blank'
@@ -114,7 +114,7 @@ const Projects = forwardRef((props, ref) => {
             rel='noreferrer'>
             <h2>The Diary Library App (Github)</h2>
           </a>
-          <h3>Technologies Used : Express/Node, JS/React, SASS</h3>
+          <h3>Technologies Used: Express/Node, JS/React, SASS</h3>
           <a
             href='https://the-diary-library-app.netlify.app/welcome/'
             target='_blank'
@@ -146,7 +146,7 @@ const Projects = forwardRef((props, ref) => {
             rel='noreferrer'>
             <h2>Vintage Cutsom Cycles App (Github)</h2>
           </a>
-          <h3>Technologies Used : Python/Django, JS/React, SASS</h3>
+          <h3>Technologies Used: Python/Django, JS/React, SASS</h3>
           <a
             href='https://vintage-custom-cycles.netlify.app/'
             target='_blank'
