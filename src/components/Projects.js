@@ -24,7 +24,7 @@ const Projects = forwardRef((props, ref) => {
             rel='noreferrer'>
             <h2>Musiq-All - Website</h2>
           </a>
-          <h3>Technologies Used : HTML, SASS, Javascript, Postman</h3>
+          <h3>Technologies Used: React/JS, SASS, Axios</h3>
           <a
             href='https://musiq-all.co.uk'
             target='_blank'
@@ -43,8 +43,8 @@ const Projects = forwardRef((props, ref) => {
             available for you to test your knowledge! Good luck!
             <br></br>Analyzing each endpoints to get the most information was
             the key takeaway for me on this project. The main challenge was to
-            work on the Quiz functionalities. I wanted to improve my Styling,
-            Responsiveness and Accessibility skills on this project too, which I did!
+            work on the Quiz functionalities. I wanted to improve my styling,
+            responsiveness and accessibility skills as well, which I did!
           </p>
         </fieldset>
         <fieldset className='project'>
