@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f8aeb2da.css",
-    "main.js": "/static/js/main.e7025e46.js",
+    "main.css": "/static/css/main.79a5aaef.css",
+    "main.js": "/static/js/main.d86a69fa.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/travel.png": "/static/media/travel.68fde4153dc2dedd08a5.png",
     "static/media/bike.png": "/static/media/bike.eb758941d595ef01d667.png",
@@ -10,12 +10,12 @@
     "static/media/brand-icons.svg": "/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/jazz-cafe.png": "/static/media/jazz-cafe.5bb41b9b3315faad60d2.png",
     "static/media/profile-sq.png": "/static/media/profile-sq.92989cc85051b5412a14.png",
-    "static/media/musiq-all.png": "/static/media/musiq-all.54eb0a26ab6b10509bb0.png",
     "static/media/icons.svg": "/static/media/icons.62d9dae4e0040e81c980.svg",
     "static/media/project1.png": "/static/media/project1.2997788115983564c9cf.png",
+    "static/media/project3.png": "/static/media/project3.16998753aab9e3ac1109.png",
     "static/media/project2.png": "/static/media/project2.0453531368666d1c0834.png",
-    "static/media/project3.png": "/static/media/project3.538e29900d2c75ea94a1.png",
-    "static/media/project4.png": "/static/media/project4.43269f93e39e5ad12ce5.png",
+    "static/media/project4.png": "/static/media/project4.d110ed9998de290c7c71.png",
+    "static/media/project5.png": "/static/media/project5.d780f7fd57fe35e817fa.png",
     "static/media/bread.jpg": "/static/media/bread.77a0be431cb586fe314c.jpg",
     "static/media/outline-icons.svg": "/static/media/outline-icons.9c4845b4b41ef40a22fa.svg",
     "static/media/icons.eot": "/static/media/icons.a01e3f2d6c83dc3aee17.eot",
@@ -44,12 +44,12 @@
     "static/media/html.png": "/static/media/html.31497a13d5b51cea9b7d.png",
     "index.html": "/index.html",
     "static/media/bootstrap.svg": "/static/media/bootstrap.fa2753ea8f5439fa2cd53eaaafd4a03c.svg",
-    "main.f8aeb2da.css.map": "/static/css/main.f8aeb2da.css.map",
-    "main.e7025e46.js.map": "/static/js/main.e7025e46.js.map",
+    "main.79a5aaef.css.map": "/static/css/main.79a5aaef.css.map",
+    "main.d86a69fa.js.map": "/static/js/main.d86a69fa.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8aeb2da.css",
-    "static/js/main.e7025e46.js"
+    "static/css/main.79a5aaef.css",
+    "static/js/main.d86a69fa.js"
   ]
 }
